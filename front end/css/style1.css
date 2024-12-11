@@ -1,0 +1,195 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(120deg, #a8edea, #fed6e3);
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 10px;
+    background-color: #333;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #45a049;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    color: #4CAF50;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+}
+
+
+nav ul li a:hover,
+nav ul li a.active {
+    background-color: #45a049;
+}
+
+/* Flashcard Layout */
+#flashcard-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh; /* Ensures it fills most of the viewport height */
+    margin-top: 20px;
+}
+
+.flashcard {
+    width: 280px;
+    height: 380px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.6s ease;
+    cursor: pointer;
+    border-radius: 15px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+.front, .back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 15px;
+}
+
+.front {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border: 2px solid #ccc;
+    border-radius: 15px;
+}
+
+.back {
+    background-color: #fff;
+    color: #333;
+    padding: 20px;
+    transform: rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+#flashcard.flip {
+    transform: rotateY(180deg);
+}
+
+/* Flashcard Image */
+#flashcard-image {
+    max-width: 80%;
+    max-height: 80%;
+    object-fit: contain;
+}
+
+/* Controls */
+#theme-selector {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.nav-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-btn:hover {
+    background-color: #45a049;
+}
+
+/* Button Positions */
+#prevbtn {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#nextbtn {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+@media (max-width: 600px) {
+    .flashcard {
+        width: 240px;
+        height: 320px;
+    }
+    #theme-selector {
+        font-size: 14px;
+    }
+    .nav-btn {
+        font-size: 14px;
+    }
+}

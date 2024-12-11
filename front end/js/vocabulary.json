@@ -1,0 +1,26 @@
+{
+    "Animals": [
+        {
+            "vocabulary": "Dog",
+            "pronunciation": "/dɔɡ/",
+            "meaning": "Con chó"
+        },
+        {
+            "vocabulary": "Cat",
+            "pronunciation": "/kæt/",
+            "meaning": "Con mèo"
+        }
+    ],
+    "Fruits": [
+        {
+            "vocabulary": "Apple",
+            "pronunciation": "/ˈæp.əl/",
+            "meaning": "Quả táo"
+        },
+        {
+            "vocabulary": "Banana",
+            "pronunciation": "/bəˈnæn.ə/",
+            "meaning": "Quả chuối"
+        }
+    ]
+}

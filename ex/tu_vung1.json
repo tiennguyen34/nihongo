@@ -1,0 +1,172 @@
+{
+    "thực phẩm ": [
+        {
+            "word": "肉",
+            "meaning": "thịt",
+            "pronunciation": "にく",
+            "image": "images/kitchen/肉.jpg"
+        },
+        {
+            "word": "魚",
+            "meaning": "cá",
+            "pronunciation": "さかな",
+            "image": "images/kitchen/魚.jpg"
+        },
+        {
+            "word": "野菜",
+            "meaning": "rau",
+            "pronunciation": "やさい",
+            "image": "images/kitchen/野.jpg"
+        },
+        {
+            "word": "干物",
+            "meaning": "đồ được sấy khô  ",
+            "pronunciation": "ひもの",
+            "image": "images/kitchen/干.jpg"
+        },
+        {
+            "word": "冷凍食品",
+            "meaning": "đồ đông lạnh ",
+            "pronunciation": "れいとうしょうひん",
+            "image": "images/kitchen/冷.jpg"
+        },
+        {
+            "word": "拉麺",
+            "meaning": "mì ",
+            "pronunciation": "ラーメン",
+            "image": "images/kitchen/ラ.jpg"
+        },
+        {
+            "word": "弁当",
+            "meaning": "cơm hộp ",
+            "pronunciation": "べんとう",
+            "image": "images/kitchen/弁.jpg"
+        },
+        {
+            "word": "果物",
+            "meaning": "trái cây ",
+            "pronunciation": "くだもの",
+            "image": "images/kitchen/果.jpg"
+        },
+        {
+            "word": "調味料",
+            "meaning": "gia vị ",
+            "pronunciation": "ちょうみりょう",
+            "image": "images/kitchen/調.jpg"
+        },
+        {
+            "word": "天ぷら",
+            "meaning": "đồ chiên",
+            "pronunciation": "てんぷら",
+            "image": "images/kitchen/天.jpg"
+        },
+        {
+            "word": "果汁",
+            "meaning": "nước trái cây",
+            "pronunciation": "かじゅう",
+            "image": "images/kitchen/果汁.jpg"
+        },
+        {
+            "word": "牛乳",
+            "meaning": "sữa ",
+            "pronunciation": "ぎゅうにゅう",
+            "image": "images/kitchen/牛乳.jpg"
+        },
+        {
+            "word": "ヨーグルト",
+            "meaning": "sữa chua ",
+            "pronunciation": "よーぐると",
+            "image": "images/kitchen/ヨ.jpg"
+        },
+        {
+            "word": "バター",
+            "meaning": "bơ ",
+            "pronunciation": "ばたー",
+            "image": "images/kitchen/バ.jpg"
+        },
+        {
+            "word": "醬油",
+            "meaning": "nước tương ",
+            "pronunciation": "しょうゆ",
+            "image": "images/kitchen/しょう.jpg"
+        },
+        {
+            "word": "山葵",
+            "meaning": "mù tạt ",
+            "pronunciation": "わさび",
+            "image": "images/kitchen/わさび.jpg"
+        },
+        {
+            "word": "豆腐",
+            "meaning": "đậu phụ ",
+            "pronunciation": "とうふ",
+            "image": "images/kitchen/とうふ.jpg"
+        },
+        {
+            "word": "小麦粉",
+            "meaning": "bột mì ",
+            "pronunciation": "こむぎこ",
+            "image": "images/kitchen/こむぎ.jpg"
+        },
+        {
+            "word": "餅米",
+            "meaning": "gạo nếp ",
+            "pronunciation": "もちごめ",
+            "image": "images/kitchen/もちごめ.jpg"
+        },
+        {
+            "word": "米",
+            "meaning": "gạo ",
+            "pronunciation": "こめ",
+            "image": "images/kitchen/こめ.jpg"
+        },
+        {
+            "word": "油",
+            "meaning": "dầu ăn ",
+            "pronunciation": "あぶら",
+            "image": "images/kitchen/あぶら.jpg"
+        },
+        {
+            "word": "ごま油",
+            "meaning": "dầu mè ",
+            "pronunciation": "ごまあぶら",
+            "image": "images/kitchen/ごまあぶら.jpg"
+        },
+        {
+            "word": "抹茶",
+            "meaning": "trà xanh ",
+            "pronunciation": "まっちゃ",
+            "image": "images/kitchen/まっちゃ.jpg"
+        },
+        {
+            "word": "玄米茶",
+            "meaning": "trà gạo lứt ",
+            "pronunciation": "げんまいちゃ",
+            "image": "images/kitchen/げんまいちゃ.jpg"
+        },
+        {
+            "word": "洗剤",
+            "meaning": "nước giặt ",
+            "pronunciation": "せんざい",
+            "image": "images/kitchen/せんざい.jpg"
+        },
+        {
+            "word": "食器用洗剤",
+            "meaning": "nước rửa chén ",
+            "pronunciation": "しょきようせんざい",
+            "image": "images/kitchen/しょきよう.jpg"
+        },
+        {
+            "word": "トイレ用洗剤",
+            "meaning": "nước cọ toilet ",
+            "pronunciation": "といれようせんざい",
+            "image": "images/kitchen/といれよう.jpg"
+        },
+        {
+            "word": "浴室用洗剤",
+            "meaning": "nước cọ nhà tắm ",
+            "pronunciation": "よくしつせんざい",
+            "image": "images/kitchen/よくしつ.jpg"
+        }
+    ]
+}

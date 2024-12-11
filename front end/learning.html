@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>勉強</title>
+    <link rel="stylesheet" href="css/style2.css">
+</head>
+<body>
+    <header>
+        <h1>日本語</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">ホームページ</a></li>
+            <li><a href="learning.html">勉強</a></li>
+            <li><a href="test.html">テスト</a></li>
+            <li><a href="flashcard.html">フラッシュカード</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h1>文字ー語彙</h1>
+        
+        <!-- Thanh chọn chủ đề -->
+        <div id="topicSelectContainer">
+            <label for="topicSelect">テーマ</label>
+            <select id="topicSelect">
+                <option value="">-- テーマを選んでください --</option>
+            </select>
+        </div>
+    
+        <!-- Nút quay lại -->
+       
+    
+        <!-- Phần hiển thị từ vựng -->
+        <div id="vocabularySection" style="display: none;">
+            <h2 id="topicTitle">テーマ: </h2> <!-- Tiêu đề sẽ được cập nhật ở đây -->
+            <ul id="vocabularyList"></ul>
+            <div id="navigationButtons">
+                <button id="prevButton" disabled>戻る</button>
+                <button id="backButton" style="display: none;">他の</button>
+                <button id="nextButton" disabled>進む</button>
+            </div>
+        </div>
+    </div>
+    
+    <main id="content">
+        <ul id="vocabulary-list"></ul>
+    </main>
+
+    <script src="js/js2.js"></script>
+</body>
+</html>

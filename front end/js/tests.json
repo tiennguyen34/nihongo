@@ -1,0 +1,98 @@
+{
+    "材料": [
+        {
+            "question": "'肉'の意味は何ですか?",
+            "choices": ["Thịt", "Cá", "Rau", "Đồ khô"],
+            "correctAnswer": 0
+        },
+        {
+            "question": "'魚'の意味は何ですか?",
+            "choices": ["Cá", "Thịt", "Đồ đông lạnh", "Trái cây"],
+            "correctAnswer": 0
+        },
+        {
+            "question": "'野菜'の意味は何ですか?",
+            "choices": ["Gia vị", "Trái cây", "Rau", "Đồ ăn vặt"],
+            "correctAnswer": 2
+        },
+        {
+            "question": "'干物'の意味は何ですか?",
+            "choices": ["Đồ ăn vặt", "Đồ đông lạnh", "Đồ khô", "Gia vị"],
+            "correctAnswer": 2
+        },
+        {
+            "question": "'冷凍食品'の意味は何ですか?",
+            "choices": ["Đồ đông lạnh", "Thịt", "Đồ chiên", "Trà Nhật"],
+            "correctAnswer": 0
+        },
+        {
+            "question": "'果物'の意味は何ですか?",
+            "choices": ["Trái cây", "Nước giặt", "Gạo", "Sữa"],
+            "correctAnswer": 0
+        },
+        {
+            "question": "What is the meaning of '調味料'?",
+            "choices": ["Gia vị", "Sữa chua", "Đồ ăn vặt", "Gạo nếp"],
+            "correctAnswer": 0
+        },
+        {
+            "question": "What is the meaning of '天ぷら'?",
+            "choices": ["Đồ chiên", "Nước tương", "Rau", "Gạo"],
+            "correctAnswer": 0
+        },
+        {
+            "question": "What is the meaning of '牛乳'?",
+            "choices": ["Sữa", "Trà", "Đậu phụ", "Bơ"],
+            "correctAnswer": 0
+        },
+        {
+            "question": "What is the meaning of '小麦粉'?",
+            "choices": ["Bột mì", "Dầu ăn", "Trà xanh", "Nước trái cây"],
+            "correctAnswer": 0
+        }
+    ],
+    "Condiments and Beverages Test": [
+        {
+            "question": "What is the meaning of 'しょうゆ'?",
+            "choices": ["Nước tương", "Gia vị", "Đậu phụ", "Trà xanh"],
+            "correctAnswer": 0
+        },
+        {
+            "question": "What is the meaning of 'ワサビ'?",
+            "choices": ["Mù tạt", "Gia vị", "Bơ", "Dầu mè"],
+            "correctAnswer": 0
+        },
+        {
+            "question": "What is the meaning of '抹茶'?",
+            "choices": ["Trà xanh", "Gạo nếp", "Nước giặt", "Đồ ăn vặt"],
+            "correctAnswer": 0
+        },
+        {
+            "question": "What is the meaning of '油'?",
+            "choices": ["Dầu ăn", "Gạo", "Sữa chua", "Bơ"],
+            "correctAnswer": 0
+        }
+    ],
+    "Household Products Test": [
+        {
+            "question": "What is the meaning of '洗剤'?",
+            "choices": ["Nước giặt", "Sữa", "Dầu ăn", "Gia vị"],
+            "correctAnswer": 0
+        },
+        {
+            "question": "What is the meaning of '食器用洗剤'?",
+            "choices": ["Nước rửa chén", "Trái cây", "Bột mì", "Nước giặt"],
+            "correctAnswer": 0
+        },
+        {
+            "question": "What is the meaning of 'トイレ用洗剤'?",
+            "choices": ["Nước cọ toilet", "Nước rửa chén", "Nước giặt", "Đồ ăn vặt"],
+            "correctAnswer": 0
+        },
+        {
+            "question": "What is the meaning of '浴室用洗剤'?",
+            "choices": ["Nước cọ nhà tắm", "Đồ khô", "Gia vị", "Đậu phụ"],
+            "correctAnswer": 0
+        }
+    ]
+}

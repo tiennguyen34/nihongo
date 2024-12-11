@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>日本語 Flashcards</title>
+    <link rel="stylesheet" href="css/style1.css">
+</head>
+<body>
+    <header>
+        <h1>日本語 Flashcards</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">ホームページ</a></li>
+            <li><a href="learning.html">勉強</a></li>
+            <li><a href="test.html">テスト</a></li>
+            <li><a href="flashcard.html" class="active">フラッシュカード</a></li>
+        </ul>
+    </nav>
+    <main id="content">
+        <div id="theme-selector">
+            <label for="theme">テーマ選択: </label>
+            <select id="theme" onchange="loadTheme()">
+                <option value="materials">材料</option>
+                <option value="traffic">交通</option>
+                <option value="drinks">飲み物</option>
+            </select>
+        </div>
+        <div id="flashcard-container">
+            <div id="flashcard" class="flashcard" onclick="flipCard()" role="button" aria-label="Click to flip the flashcard">
+                <!-- Front of the card -->
+                <div class="front">
+                    <img id="flashcard-image" src="images/animals/肉.jpg" alt="Vocabulary image">
+                </div>
+                <!-- Back of the card -->
+                <div class="back">
+                    <div id="flashcard-word"></div>
+                    <div id="flashcard-meaning"></div>
+                    <div id="flashcard-pronunciation"></div>
+                </div>
+            </div>
+        </div>
+        
+        <div id="controls">
+            <button id="prevbtn" onclick="prevbtn()" class="nav-btn">前</button>
+            <button id="nextbtn" onclick="nextbtn()" class="nav-btn">後</button>
+        </div>
+    </main>
+    
+    <script src="js/js.js"></script>
+</body>
+</html>
