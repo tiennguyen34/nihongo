@@ -2,7 +2,7 @@ import pandas as pd
 import json
 
 # Đọc file Excel
-df = pd.read_excel("traffic.xlsx", engine='openpyxl')
+df = pd.read_excel("fruits.xlsx", engine='openpyxl')
 
 # Tạo cấu trúc dữ liệu cho JSON
 data = {}

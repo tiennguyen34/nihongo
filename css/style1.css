@@ -7,7 +7,7 @@ body {
     font-family: Arial, sans-serif;
     background: linear-gradient(120deg, #a8edea, #fed6e3);
     margin: 0;
-    padding: 20px;
+    padding: 0;
     color: #333;
 }
 
@@ -23,7 +23,7 @@ header {
     font-size: 50px;
     padding: 10px;
     text-align: center;
-    border-radius: 20px;
+    border-radius: 15px;
 }
 
 nav ul {
@@ -95,6 +95,7 @@ h1, h2 {
     align-items: center;
     min-height: 60vh; /* Ensures it fills most of the viewport height */
     margin-top: 20px;
+    padding: 10px 0 20px 0;
 }
 
 .flashcard {
@@ -114,6 +115,8 @@ h1, h2 {
     height: 100%;
     backface-visibility: hidden;
     border-radius: 15px;
+    border: 5px solid #444; /* Main border */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds shadow for depth */
 }
 
 .front {
@@ -121,9 +124,18 @@ h1, h2 {
     justify-content: center;
     align-items: center;
     background-color: #fff;
-    border: 2px solid #ccc;
-    border-radius: 15px;
 }
+.front::before, .back::before{
+    content: "";
+    position: absolute;
+    top: -15px;
+    left: -15px;
+    right: -15px;
+    bottom: -15px;
+    border: 3px solid #999; /* Outer decorative border */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Optional shadow for decoration */
+  }
 
 .back {
     background-color: #fff;
@@ -139,15 +151,19 @@ h1, h2 {
 #flashcard.flip {
     transform: rotateY(180deg);
 }
+/*Flashcard Words*/
+
+#flashcard-word ,#flashcard-meaning, #flashcard-pronunciation{
+    font-size: 35px;
+    padding: 10px 0 10px 0;
+}
 
 /* Flashcard Image */
 #flashcard-image {
     max-width: 80%;
     max-height: 80%;
     object-fit: contain;
-    border-radius: 8px; /* Slightly rounded corners */
-    border: 5px solid #444; /* Main border */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds shadow for depth */
+    border-radius: 8px;
 }
 
 /* Controls */

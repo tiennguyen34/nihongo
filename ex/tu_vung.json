@@ -1,252 +1,286 @@
 {
-    "traffic": [
+    "fruits ": [
         {
-            "word": "自動車 / 車",
-            "meaning": "Ô tô",
-            "pronunciation": "じどうしゃ/くるま",
-            "image": "images/traffic/車.jfif"
+            "word": "ばなな",
+            "meaning": "Quả chuối ",
+            "pronunciation": "バナナ",
+            "image": "images/fruits/banana.jpg"
         },
         {
-            "word": "バス ",
-            "meaning": " Xe buýt",
-            "pronunciation": "バス ",
-            "image": "images/traffic/バス.jfif"
+            "word": "苺",
+            "meaning": "Dâu tây ",
+            "pronunciation": "いちご",
+            "image": "images/fruits/strawberry.jpg"
         },
         {
-            "word": "トラック ",
-            "meaning": " Xe tải",
-            "pronunciation": "トラック ",
-            "image": "images/traffic/トラック.jfif"
+            "word": "杏子",
+            "meaning": "Mơ ",
+            "pronunciation": "あんず",
+            "image": "images/fruits/mo.jpg"
         },
         {
-            "word": " スポーツカー",
-            "meaning": " Xe thể thao",
-            "pronunciation":" スポーツカー",
-            "image": "images/traffic/スポーツカー.jfif"
+            "word": "葡萄",
+            "meaning": "Nho ",
+            "pronunciation": "ぶどう",
+            "image": "images/fruits/nho.jpg"
         },
         {
-            "word": "タクシー ",
-            "meaning": "Taxi",
-            "pronunciation": "タクシー ",
-            "image": "images/traffic/タクシー.jfif"
+            "word": "無花果",
+            "meaning": "Sung ",
+            "pronunciation": "いちじく",
+            "image": "images/fruits/sung.jpg"
         },
         {
-            "word": " 救急車",
-            "meaning": " Xe cứu thương",
-            "pronunciation": "きゅうきゅうしゃ",
-            "image": "images/traffic/救急車.jfif"
+            "word": "柿 ",
+            "meaning": "Hồng ",
+            "pronunciation": "かき",
+            "image": "images/fruits/hong.jpg"
         },
         {
-            "word": "消防車",
-            "meaning": " Xe cứu hỏa",
-            "pronunciation": "しょうぼうしゃ",
-            "image": "images/traffic/消防車.jfif"
+            "word": "さぽちぇ",
+            "meaning": "Quả hồng xiêm ",
+            "pronunciation": "サポチェ",
+            "image": "images/fruits/hongxiem.jpg"
         },
         {
-            "word": "パトカー",
-            "meaning": " Xe cảnh sát tuần tra",
-            "pronunciation": "パトカー",
-            "image": "images/traffic/パトカー.jfif"
+            "word": "桃",
+            "meaning": "Quả đào ",
+            "pronunciation": "もも、ピーチ",
+            "image": "images/fruits/dao.jpg"
         },
         {
-            "word": " 白バイ",
-            "meaning": "Xe cảnh sát",
-            "pronunciation": "しろバイ",
-            "image": "images/traffic/"
+            "word": "梨",
+            "meaning": "Lê",
+            "pronunciation": "なし",
+            "image": "images/fruits/le.jpg"
         },
         {
-            "word": "オートバイ",
-            "meaning": "Xe gắn máy",
-            "pronunciation":"オートバイ",
-            "image": "images/traffic/オートバイ.jfif"
+            "word": "おれんじ",
+            "meaning": "Cam",
+            "pronunciation": "オレンジ",
+            "image": "images/fruits/cam.jpg"
         },
         {
-            "word": "自転車 ",
-            "meaning": " Xe đạp",
-            "pronunciation": "じてんしゃ",
-            "image": "images/traffic/自転車.jfif"
+            "word": "れもん",
+            "meaning": "Chanh vàng ",
+            "pronunciation": "レモン",
+            "image": "images/fruits/chanhv.jpg"
         },
         {
-            "word": "三輪車 ",
-            "meaning": "Xe ba bánh",
-            "pronunciation": "さんりんしゃ",
-            "image": "images/traffic/三論車.jfif"
+            "word": "林檎",
+            "meaning": "Táo ",
+            "pronunciation": "りんご",
+            "image": "images/fruits/tao.jpg"
         },
         {
-            "word": " 汽車 ",
-            "meaning": "Tàu (chạy bằng hơi nước )",
-            "pronunciation": "きしゃ",
-            "image": "images/traffic/汽車.jfif"
+            "word": "さくらんぼ ",
+            "meaning": "Cherry",
+            "pronunciation": "さくらんぼ ",
+            "image": "images/fruits/cherry.jpg"
         },
         {
-            "word": " 電車 ",
-            "meaning": "Tàu (điện)",
-            "pronunciation": "でんしゃ",
-            "image": "images/traffic/電車.jfif"
+            "word": "すいか",
+            "meaning": "Dưa hấu ",
+            "pronunciation": "スイカ",
+            "image": "images/fruits/duahau.jpg"
         },
         {
-            "word": "地下鉄 ",
-            "meaning": "Tàu điện ngầm",
-            "pronunciation": "ちかてつ",
-            "image": "images/traffic/地下鉄.jfif"
+            "word": "梅",
+            "meaning": "Quả mơ",
+            "pronunciation": "うめ",
+            "image": "images/fruits/qmo.jpg"
         },
         {
-            "word": " 新幹線 ",
-            "meaning": "Tàu cao tốc",
-            "pronunciation": "しんかんせん",
-            "image": "images/traffic/新幹線.jfif"
+            "word": "ぐあば",
+            "meaning": "Ổi ",
+            "pronunciation": "グアバ",
+            "image": "images/fruits/oi.jpg"
         },
         {
-            "word": " 船 ",
-            "meaning": "Tàu thủy",
-            "pronunciation": "ふね",
-            "image": "images/traffic/船.jfif"
+            "word": "グレープフルーツ",
+            "meaning": "Bưởi",
+            "pronunciation": "グレープフルーツ",
+            "image": "images/fruits/buoi.jpg"
         },
         {
-            "word": " 帆船 ",
-            "meaning": "Thuyền buồm",
-            "pronunciation": "はんせん",
-            "image": "images/traffic/帆船.jfif"
+            "word": "アボカド ",
+            "meaning": "Quả bơ ",
+            "pronunciation": "アボカド ",
+            "image": "images/fruits/bo.jpg"
         },
         {
-            "word": " ヨット",
-            "meaning": "Du thuyền",
-            "pronunciation": " ヨット",
-            "image": "images/traffic/ヨット.jfif"
+            "word": "芒果",
+            "meaning": "Xoài ",
+            "pronunciation": " マンゴ",
+            "image": "images/fruits/mango.jpg"
         },
         {
-            "word": " フェーリー ",
-            "meaning": "Phà",
-            "pronunciation":" フェーリー ",
-            "image": "images/traffic/フェリー.jfif"
+            "word": "黄瓜",
+            "meaning": "Dưa chuột ",
+            "pronunciation": "きゅうり",
+            "image": "images/fruits/cucumber.jpg"
         },
         {
-            "word": " 飛行機 ",
-            "meaning": "Máy bay",
-            "pronunciation": "ひこうき",
-            "image": "images/traffic/飛行機.jfif"
+            "word": "干しぶどう",
+            "meaning": "Nho khô ",
+            "pronunciation": "ほしぶどう",
+            "image": "images/fruits/grape.jpg"
         },
         {
-            "word": "ヘリコプター ",
-            "meaning": " Máy bay trực thăng",
-            "pronunciation": "ヘリコプター",
-            "image": "images/traffic/ヘリコプター.jfif"
+            "word": "みかん",
+            "meaning": "Quả quýt",
+            "pronunciation": "みかん",
+            "image": "images/fruits/quyt.jpg"
         },
         {
-            "word": "馬車 ",
-            "meaning": " Xe ngựa kéo",
-            "pronunciation": "ばしゃ",
-            "image": "images/traffic/馬車.jfif"
+            "word": "ドリアン",
+            "meaning": "Quả sầu riêng ",
+            "pronunciation": "ドリアン",
+            "image": "images/fruits/sau.jpg"
         },
         {
-            "word": " 人力車 ",
-            "meaning": "Xe kéo",
-            "pronunciation": "じんりきしゃ",
-            "image": "images/traffic/人力車.jfif"
-        },
-
-        {
-            "word": " 免許証を持っていますか",
-            "meaning": "Bạn có bằng lái xe?",
-            "pronunciation": "めんきょしょうをもっていますか",
-            "image": "images/traffic/免許証を持っていますか.jfif"
+            "word": "パイナップル",
+            "meaning": "Quả dứa ",
+            "pronunciation": "パイナップル",
+            "image": "images/fruits/dua.jpg"
         },
         {
-            "word": " 道を曲がる",
-            "meaning": "rẽ đường",
-            "pronunciation": "みちをまがる",
-            "image": "images/traffic/道を曲がる.jfif"
+            "word": "パパイア",
+            "meaning": "Quả đu đủ ",
+            "pronunciation": "パパイア",
+            "image": "images/fruits/dudu.jpg"
         },
         {
-            "word": "右に曲がる",
-            "meaning": "rẽ phải",
-            "pronunciation": "みぎにまがる",
-            "image": "images/traffic/右に曲がる.jfif"
+            "word": "砂糖黍",
+            "meaning": "Cây mía ",
+            "pronunciation": "サトウキビ",
+            "image": "images/fruits/mia.jpg"
         },
         {
-            "word": "左に曲がる",
-            "meaning": " rẽ trái",
-            "pronunciation": "ひだりにまがる",
-            "image": "images/traffic/左に曲がる.jfif"
+            "word": "ライム",
+            "meaning": "Chanh xanh ",
+            "pronunciation": "ライム",
+            "image": "images/fruits/chanhx.jpg"
         },
         {
-            "word": "横断歩道を渡る",
-            "meaning": "sang đường dành cho người đi bộ",
-            "pronunciation": "おうだんほどうをわたる",
-            "image": "images/traffic/横断歩道を渡る.jfif"
-        },
-
-        {
-            "word": "橋を渡る",
-            "meaning": "đi qua cầu",
-            "pronunciation": "はしをわたる",
-            "image": "images/traffic/橋を渡る.jfif"
+            "word": "キウイ ",
+            "meaning": "Quả kiwi",
+            "pronunciation": "キウイ ",
+            "image": "images/fruits/kiwi.jpg"
         },
         {
-            "word": "道が混む",
-            "meaning": "đường đông",
-            "pronunciation": "みちがこむ",
-            "image": "images/traffic/道が混む.jfif"
+            "word": "オリーブ ",
+            "meaning": "Quả oliu",
+            "pronunciation": "オリーブ ",
+            "image": "images/fruits/oli.jpg"
         },
         {
-            "word": "道がすく",
-            "meaning": " đường vắng",
-            "pronunciation": "みちがすく",
-            "image": "images/traffic/道がすく.jfif"
+            "word": "プラム",
+            "meaning": "Quả mận",
+            "pronunciation": "プラム",
+            "image": "images/fruits/man.jpg"
         },
         {
-            "word": "渋滞",
-            "meaning": " tắc đường",
-            "pronunciation": "じゅうたい",
-            "image": "images/traffic/渋滞.jfif"
+            "word": "ココナッツ ",
+            "meaning": "Quả dừa ",
+            "pronunciation": "ココナッツ ",
+            "image": "images/fruits/coconut.jpg"
         },
         {
-            "word": "信号待",
-            "meaning": "chờ đèn tín hiệu giao thông",
-            "pronunciation": "しんごうまち",
-            "image": "images/traffic/信号待.jfif"
+            "word": "パッションフルーツ",
+            "meaning": "Quả chanh dây",
+            "pronunciation": "パッションフルーツ",
+            "image": "images/fruits/chanhd.jpg"
         },
         {
-            "word": "制限速度を守る",
-            "meaning": " tuân thủ tốc độ giới hạn",
-            "pronunciation": "せいげんそくどをまもる",
-            "image": "images/traffic/制限速度を守る.jfif"
+            "word": "マンゴスチン",
+            "meaning": "Quả măng cụt ",
+            "pronunciation": "マンゴスチン",
+            "image": "images/fruits/cut.jpg"
         },
         {
-            "word": "制限速度オーバー",
-            "meaning": "chạy quá tốc độ",
-            "pronunciation": "せいげんそくどオーバー",
-            "image": "images/traffic/制限速度オーバー.jfif"
+            "word": "スターフルーツ",
+            "meaning": "Quả khế ",
+            "pronunciation": "スターフルーツ",
+            "image": "images/fruits/khe.jpg"
         },
         {
-            "word": " 信号を守る",
-            "meaning": " tuân thủ theo đèn tín hiệu",
-            "pronunciation": "しんごうをまもる",
-            "image": "images/traffic/ 信号を守る.jfif"
+            "word": "ランプータン",
+            "meaning": "Quả chôm chôm ",
+            "pronunciation": "ランプータン",
+            "image": "images/fruits/chom.jpg"
         },
         {
-            "word": " 信号を無視する",
-            "meaning": " vượt đèn đỏ",
-            "pronunciation": "しんごうをむしする",
-            "image": "images/traffic/ 信号を無視する.jfif"
+            "word": "シトロン",
+            "meaning": "Quả thanh yên ",
+            "pronunciation": "シトロン",
+            "image": "images/fruits/yen.jpg"
         },
         {
-            "word": "前の車を追い越す",
-            "meaning": "vượt xe phía trước",
-            "pronunciation": "まえのくるまをおいこす",
-            "image": "images/traffic/前の車を追い越す.jfif"
+            "word": "ミルクフルーツ",
+            "meaning": "Quả vú sữa ",
+            "pronunciation": "ミルクフルーツ",
+            "image": "images/fruits/vu.jpg"
         },
         {
-            "word": "前の車に追い越される",
-            "meaning": " bị xe phía trước vượt",
-            "pronunciation": "まえのくるまにおいこされる",
-            "image": "images/traffic/前の車に追い越される.jfif"
+            "word": "シュガーアップル",
+            "meaning": "Quả na",
+            "pronunciation": "シュガーアップル",
+            "image": "images/fruits/na.jpg"
         },
         {
-            "word": "クラクションを鳴らす",
-            "meaning": "bấm còi xe",
-            "pronunciation": "クラクションをならす",
-            "image": "images/traffic/クラクションを鳴らす.jfif"
+            "word": "カスタードアップル ",
+            "meaning": "Mãng cầu ",
+            "pronunciation": "カスタードアップル ",
+            "image": "images/fruits/cau.jpg"
+        },
+        {
+            "word": "くわの実",
+            "meaning": "Quả dâu tằm ",
+            "pronunciation": "くわのみ",
+            "image": "images/fruits/tam.jpg"
+        },
+        {
+            "word": "ざくろ ",
+            "meaning": "Quả lựu",
+            "pronunciation": "ざくろ ",
+            "image": "images/fruits/luu.jpg"
+        },
+        {
+            "word": "ジャックフルーツ",
+            "meaning": "Quả mít ",
+            "pronunciation": "ジャックフルーツ",
+            "image": "images/fruits/mit.jpg"
+        },
+        {
+            "word": "タマリンド",
+            "meaning": "Quả me ",
+            "pronunciation": "タマリンド",
+            "image": "images/fruits/me.jpg"
+        },
+        {
+            "word": "ドラゴンフルーツ ",
+            "meaning": "Quả thanh long ",
+            "pronunciation": "ドラゴンフルーツ ",
+            "image": "images/fruits/thanh.jpg"
+        },
+        {
+            "word": "メロン ",
+            "meaning": "Dưa lưới",
+            "pronunciation": "メロン ",
+            "image": "images/fruits/dang.jpg"
+        },
+        {
+            "word": "ロンガン",
+            "meaning": "Quả nhãn",
+            "pronunciation": "ロンガン",
+            "image": "images/fruits/nhan.jpg"
+        },
+        {
+            "word": "ライチー",
+            "meaning": "Quả vải ",
+            "pronunciation": "ライチー",
+            "image": "images/fruits/vai.jpg"
         }
     ]
 }

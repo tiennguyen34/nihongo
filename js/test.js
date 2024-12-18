@@ -2,8 +2,10 @@ let testData = {};  // Test data
 let currentTest = [];  // Current test questions
 let currentQuestionIndex = 0;
 let score = 0;
-let timer;
+let skippedCount = 0;  // Track skipped questions
 let timeLeft = 60;  // Test time in seconds
+let timer;
+let userAnswers = [];  // Store user answers for review
 
 // Load test data from JSON file
 async function loadTestData() {
@@ -36,6 +38,8 @@ function startTest() {
         currentTest = testData[selectedTest];
         currentQuestionIndex = 0;
         score = 0;
+        skippedCount = 0;
+        userAnswers = [];
         timeLeft = 60;
         document.getElementById('testSection').style.display = 'block';
         document.getElementById('resultSection').style.display = 'none';
@@ -61,13 +65,19 @@ function updateQuestion() {
             const choiceButton = document.createElement('button');
             choiceButton.textContent = choice;
             choiceButton.setAttribute('data-index', index); // Store index as data attribute
-            choiceButton.addEventListener('click', () => checkAnswer(index)); // Use the click event properly
+            choiceButton.addEventListener('click', () => {
+                userAnswers.push({ question: questionData.question, userAnswer: choice, correctAnswer: questionData.correctAnswer });
+                checkAnswer(index);
+            });
             choiceElement.appendChild(choiceButton);
             choices.appendChild(choiceElement);
         });
 
         questionContainer.appendChild(questionElement);
         questionContainer.appendChild(choices);
+
+        // Display the "Skip" button
+        document.getElementById('questionControls').style.display = 'block';
     } else {
         endTest();
     }
@@ -82,6 +92,14 @@ function checkAnswer(selectedAnswer) {
     currentQuestionIndex++;
     updateQuestion(); 
 }
+
+// Skip Question Logic
+document.getElementById('skipButton').addEventListener('click', () => {
+    skippedCount++;
+    userAnswers.push({ question: currentTest[currentQuestionIndex].question, userAnswer: 'スキップ', correctAnswer: currentTest[currentQuestionIndex].correctAnswer });
+    currentQuestionIndex++;
+    updateQuestion();
+});
 
 // Start the timer
 function startTimer() {
@@ -100,10 +118,33 @@ function startTimer() {
 // End the test and display the result
 function endTest() {
     clearInterval(timer);
+
+    // Display Final Score
+    const scorePercentage = Math.round((score / currentTest.length) * 100);
+    const grade = scorePercentage >= 90 ? 'A' : scorePercentage >= 75 ? 'B' : scorePercentage >= 50 ? 'C' : 'D';
+
     document.getElementById('score').textContent = `点数: ${score} / ${currentTest.length}`;
-    document.getElementById('finalScore').textContent = `点数: ${score} / ${currentTest.length}`;
+    document.getElementById('finalScore').textContent = `点数: ${score} / ${currentTest.length} (${scorePercentage}%, 評価: ${grade})`;
     document.getElementById('testSection').style.display = 'none';
     document.getElementById('resultSection').style.display = 'block';
+
+    // Display Detailed Review
+    const reviewContainer = document.getElementById('reviewSection');
+    reviewContainer.innerHTML = '<h3>結果の確認:</h3>';
+    userAnswers.forEach((answer, index) => {
+        const reviewItem = document.createElement('p');
+        reviewItem.innerHTML = `<strong>質問 ${index + 1}:</strong> ${answer.question} <br>
+            <strong>あなたの回答:</strong> ${answer.userAnswer} <br>
+            <strong>正解:</strong> ${answer.correctAnswer} <br>`;
+        if (answer.userAnswer === answer.correctAnswer) {
+            reviewItem.style.color = 'green';
+        } else if (answer.userAnswer === 'スキップ') {
+            reviewItem.style.color = 'orange';
+        } else {
+            reviewItem.style.color = 'red';
+        }
+        reviewContainer.appendChild(reviewItem);
+    });
 }
 
 // Event listener for the "終了" button to end the test
