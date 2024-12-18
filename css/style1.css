@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body {
     font-family: Arial, sans-serif;
     background: linear-gradient(120deg, #a8edea, #fed6e3);
@@ -8,12 +13,17 @@ body {
 
 
 header {
+    width: auto;
+    height: 40vh;
+    background-image: url('../images/background/header2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
     background-color: #4CAF50;
-    color: white;
-    padding: 15px;
+    color: black;
+    font-size: 50px;
+    padding: 10px;
     text-align: center;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
 }
 
 nav ul {
@@ -28,20 +38,17 @@ nav ul {
 nav ul li {
     display: inline;
     margin: 0 10px;
+    margin-right: 10px;
 }
 
 nav ul li a {
     color: white;
     text-decoration: none;
-    font-weight: bold;
-    padding: 10px 15px;
-    background-color: #4CAF50;
-    border-radius: 5px;
-    transition: background 0.3s;
+    padding: 8px;
 }
 
 nav ul li a:hover {
-    background-color: #45a049;
+    color: gray;
 }
 
 .container {
@@ -55,9 +62,6 @@ main {
     padding: 20px;
 }
 
-h2 {
-    color: #4CAF50;
-}
 
 body {
     font-family: Arial, sans-serif;
@@ -75,16 +79,14 @@ body {
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-h1 {
+
+
+h1, h2 {
     text-align: center;
-    color: #fff;
 }
 
 
-nav ul li a:hover,
-nav ul li a.active {
-    background-color: #45a049;
-}
+
 
 /* Flashcard Layout */
 #flashcard-container {
@@ -143,6 +145,9 @@ nav ul li a.active {
     max-width: 80%;
     max-height: 80%;
     object-fit: contain;
+    border-radius: 8px; /* Slightly rounded corners */
+    border: 5px solid #444; /* Main border */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds shadow for depth */
 }
 
 /* Controls */
@@ -167,18 +172,11 @@ nav ul li a.active {
 }
 
 /* Button Positions */
-#prevbtn {
-    position: absolute;
-    left: 10px;
-    top: 50%;
-    transform: translateY(-50%);
-}
-
-#nextbtn {
-    position: absolute;
-    right: 10px;
-    top: 50%;
-    transform: translateY(-50%);
+#controls {
+    display: flex;
+    justify-content: space-between;
+    max-width: 300px;
+    margin: 20px auto;
 }
 
 @media (max-width: 600px) {
