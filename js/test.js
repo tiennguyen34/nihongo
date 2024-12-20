@@ -34,6 +34,8 @@ function showTestList() {
 // Start the test
 function startTest() {
     const selectedTest = document.getElementById('testSelect').value;
+    const selectedTestContainer = document.getElementById('selected_test_container');
+
     if (selectedTest) {
         currentTest = testData[selectedTest];
         currentQuestionIndex = 0;
@@ -41,11 +43,14 @@ function startTest() {
         skippedCount = 0;
         userAnswers = [];
         timeLeft = 60;
+        selectedTestContainer.style.display = 'block'; // Show the container when a test is selected
         document.getElementById('testSection').style.display = 'block';
         document.getElementById('resultSection').style.display = 'none';
         document.getElementById('testTitle').textContent = selectedTest;
         updateQuestion();
         startTimer();
+    } else {
+        selectedTestContainer.style.display = 'none'; // Hide the container if no test is selected
     }
 }
 
@@ -157,6 +162,7 @@ document.getElementById('restartTest').addEventListener('click', () => {
     document.getElementById('testSelect').value = '';
     document.getElementById('testSection').style.display = 'none';
     document.getElementById('resultSection').style.display = 'none';
+    document.getElementById('selected_test_container').style.display = 'none'; // Hide the container when restarting
 });
 
 // Load test data and show test list

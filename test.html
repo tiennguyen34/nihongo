@@ -28,22 +28,26 @@
         <select id="testSelect">
             <option value="">-- テスト --</option>
         </select>
-        <div id="testSection" style="display: none;">
-            <h2 id="testTitle"></h2>
-            <div id="questionContainer"></div>
-            <div id="questionControls">
-                <button id="skipButton">スキップ</button>  <!-- Skip button -->
-            </div>
-            <button id="endTestButton">終了</button>
-            <div id="timer"></div>
-            <div id="score"></div>
-        </div>        
-        <div id="resultSection" style="display: none;">
-            <h2>結果</h2>
-            <p id="finalScore"></p>
-            <div id="reviewSection"></div>  <!-- Review Section -->
-            <button id="restartTest">他のテスト</button>
-        </div>
     </div>
+        <div id="selected_test_container" style="display: none;">
+            <div id="testSection" style="display: none;">
+                <h2 id="testTitle"></h2>
+                <div id="questionContainer"></div>
+                <div id="questionControls">
+                    <button id="skipButton">スキップ</button>  <!-- Skip button -->
+                </div>
+                <button id="endTestButton">終了</button>
+                <div id="timer"></div>
+                <div id="score"></div>
+            </div>        
+            <div id="resultSection" style="display: none;">
+                <h2>結果</h2>
+                <p id="finalScore"></p>
+                <div id="reviewSection"></div>  <!-- Review Section -->
+                <button id="restartTest">他のテスト</button>
+            </div>
+        </div>
+    
 </body>
 </html>
+    

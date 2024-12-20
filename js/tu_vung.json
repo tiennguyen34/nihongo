@@ -169,6 +169,290 @@
             "image": "images/kitchen/よくしつ.jpg"
         }
     ],
+    "fruits ": [
+        {
+            "word": "ばなな",
+            "meaning": "Quả chuối ",
+            "pronunciation": "バナナ",
+            "image": "images/fruits/banana.jpg"
+        },
+        {
+            "word": "苺",
+            "meaning": "Dâu tây ",
+            "pronunciation": "いちご",
+            "image": "images/fruits/strawberry.jpg"
+        },
+        {
+            "word": "杏子",
+            "meaning": "Mơ ",
+            "pronunciation": "あんず",
+            "image": "images/fruits/mo.jpg"
+        },
+        {
+            "word": "葡萄",
+            "meaning": "Nho ",
+            "pronunciation": "ぶどう",
+            "image": "images/fruits/nho.jpg"
+        },
+        {
+            "word": "無花果",
+            "meaning": "Sung ",
+            "pronunciation": "いちじく",
+            "image": "images/fruits/sung.jpg"
+        },
+        {
+            "word": "柿 ",
+            "meaning": "Hồng ",
+            "pronunciation": "かき",
+            "image": "images/fruits/hong.jpg"
+        },
+        {
+            "word": "さぽちぇ",
+            "meaning": "Quả hồng xiêm ",
+            "pronunciation": "サポチェ",
+            "image": "images/fruits/hongxiem.jpg"
+        },
+        {
+            "word": "桃",
+            "meaning": "Quả đào ",
+            "pronunciation": "もも、ピーチ",
+            "image": "images/fruits/dao.jpg"
+        },
+        {
+            "word": "梨",
+            "meaning": "Lê",
+            "pronunciation": "なし",
+            "image": "images/fruits/le.jpg"
+        },
+        {
+            "word": "おれんじ",
+            "meaning": "Cam",
+            "pronunciation": "オレンジ",
+            "image": "images/fruits/cam.jpg"
+        },
+        {
+            "word": "れもん",
+            "meaning": "Chanh vàng ",
+            "pronunciation": "レモン",
+            "image": "images/fruits/chanhv.jpg"
+        },
+        {
+            "word": "林檎",
+            "meaning": "Táo ",
+            "pronunciation": "りんご",
+            "image": "images/fruits/tao.jpg"
+        },
+        {
+            "word": "さくらんぼ ",
+            "meaning": "Cherry",
+            "pronunciation": "さくらんぼ ",
+            "image": "images/fruits/cherry.jpg"
+        },
+        {
+            "word": "すいか",
+            "meaning": "Dưa hấu ",
+            "pronunciation": "スイカ",
+            "image": "images/fruits/duahau.jpg"
+        },
+        {
+            "word": "梅",
+            "meaning": "Quả mơ",
+            "pronunciation": "うめ",
+            "image": "images/fruits/qmo.jpg"
+        },
+        {
+            "word": "ぐあば",
+            "meaning": "Ổi ",
+            "pronunciation": "グアバ",
+            "image": "images/fruits/oi.jpg"
+        },
+        {
+            "word": "グレープフルーツ",
+            "meaning": "Bưởi",
+            "pronunciation": "グレープフルーツ",
+            "image": "images/fruits/buoi.jpg"
+        },
+        {
+            "word": "アボカド ",
+            "meaning": "Quả bơ ",
+            "pronunciation": "アボカド ",
+            "image": "images/fruits/bo.jpg"
+        },
+        {
+            "word": "芒果",
+            "meaning": "Xoài ",
+            "pronunciation": " マンゴ",
+            "image": "images/fruits/mango.jpg"
+        },
+        {
+            "word": "黄瓜",
+            "meaning": "Dưa chuột ",
+            "pronunciation": "きゅうり",
+            "image": "images/fruits/cucumber.jpg"
+        },
+        {
+            "word": "干しぶどう",
+            "meaning": "Nho khô ",
+            "pronunciation": "ほしぶどう",
+            "image": "images/fruits/grape.jpg"
+        },
+        {
+            "word": "みかん",
+            "meaning": "Quả quýt",
+            "pronunciation": "みかん",
+            "image": "images/fruits/quyt.jpg"
+        },
+        {
+            "word": "ドリアン",
+            "meaning": "Quả sầu riêng ",
+            "pronunciation": "ドリアン",
+            "image": "images/fruits/sau.jpg"
+        },
+        {
+            "word": "パイナップル",
+            "meaning": "Quả dứa ",
+            "pronunciation": "パイナップル",
+            "image": "images/fruits/dua.jpg"
+        },
+        {
+            "word": "パパイア",
+            "meaning": "Quả đu đủ ",
+            "pronunciation": "パパイア",
+            "image": "images/fruits/dudu.jpg"
+        },
+        {
+            "word": "砂糖黍",
+            "meaning": "Cây mía ",
+            "pronunciation": "サトウキビ",
+            "image": "images/fruits/mia.jpg"
+        },
+        {
+            "word": "ライム",
+            "meaning": "Chanh xanh ",
+            "pronunciation": "ライム",
+            "image": "images/fruits/chanhx.jpg"
+        },
+        {
+            "word": "キウイ ",
+            "meaning": "Quả kiwi",
+            "pronunciation": "キウイ ",
+            "image": "images/fruits/kiwi.jpg"
+        },
+        {
+            "word": "オリーブ ",
+            "meaning": "Quả oliu",
+            "pronunciation": "オリーブ ",
+            "image": "images/fruits/oli.jpg"
+        },
+        {
+            "word": "プラム",
+            "meaning": "Quả mận",
+            "pronunciation": "プラム",
+            "image": "images/fruits/man.jpg"
+        },
+        {
+            "word": "ココナッツ ",
+            "meaning": "Quả dừa ",
+            "pronunciation": "ココナッツ ",
+            "image": "images/fruits/coconut.jpg"
+        },
+        {
+            "word": "パッションフルーツ",
+            "meaning": "Quả chanh dây",
+            "pronunciation": "パッションフルーツ",
+            "image": "images/fruits/chanhd.jpg"
+        },
+        {
+            "word": "マンゴスチン",
+            "meaning": "Quả măng cụt ",
+            "pronunciation": "マンゴスチン",
+            "image": "images/fruits/cut.jpg"
+        },
+        {
+            "word": "スターフルーツ",
+            "meaning": "Quả khế ",
+            "pronunciation": "スターフルーツ",
+            "image": "images/fruits/khe.jpg"
+        },
+        {
+            "word": "ランプータン",
+            "meaning": "Quả chôm chôm ",
+            "pronunciation": "ランプータン",
+            "image": "images/fruits/chom.jpg"
+        },
+        {
+            "word": "シトロン",
+            "meaning": "Quả thanh yên ",
+            "pronunciation": "シトロン",
+            "image": "images/fruits/yen.jpg"
+        },
+        {
+            "word": "ミルクフルーツ",
+            "meaning": "Quả vú sữa ",
+            "pronunciation": "ミルクフルーツ",
+            "image": "images/fruits/vu.jpg"
+        },
+        {
+            "word": "シュガーアップル",
+            "meaning": "Quả na",
+            "pronunciation": "シュガーアップル",
+            "image": "images/fruits/na.jpg"
+        },
+        {
+            "word": "カスタードアップル ",
+            "meaning": "Mãng cầu ",
+            "pronunciation": "カスタードアップル ",
+            "image": "images/fruits/cau.jpg"
+        },
+        {
+            "word": "くわの実",
+            "meaning": "Quả dâu tằm ",
+            "pronunciation": "くわのみ",
+            "image": "images/fruits/tam.jpg"
+        },
+        {
+            "word": "ざくろ ",
+            "meaning": "Quả lựu",
+            "pronunciation": "ざくろ ",
+            "image": "images/fruits/luu.jpg"
+        },
+        {
+            "word": "ジャックフルーツ",
+            "meaning": "Quả mít ",
+            "pronunciation": "ジャックフルーツ",
+            "image": "images/fruits/mit.jpg"
+        },
+        {
+            "word": "タマリンド",
+            "meaning": "Quả me ",
+            "pronunciation": "タマリンド",
+            "image": "images/fruits/me.jpg"
+        },
+        {
+            "word": "ドラゴンフルーツ ",
+            "meaning": "Quả thanh long ",
+            "pronunciation": "ドラゴンフルーツ ",
+            "image": "images/fruits/thanh.jpg"
+        },
+        {
+            "word": "メロン ",
+            "meaning": "Dưa lưới",
+            "pronunciation": "メロン ",
+            "image": "images/fruits/dang.jpg"
+        },
+        {
+            "word": "ロンガン",
+            "meaning": "Quả nhãn",
+            "pronunciation": "ロンガン",
+            "image": "images/fruits/nhan.jpg"
+        },
+        {
+            "word": "ライチー",
+            "meaning": "Quả vải ",
+            "pronunciation": "ライチー",
+            "image": "images/fruits/vai.jpg"
+        }
+    ],
     "traffic": [
         {
             "word": "自動車 / 車",

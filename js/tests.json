@@ -1,5 +1,5 @@
 {
-    "材料": [
+    "thực phẩm ": [
         {
             "question": "'肉'の意味は何ですか?",
             "choices": ["Thịt", "Cá", "Rau", "Đồ khô"],
@@ -31,66 +31,183 @@
             "correctAnswer": 0
         },
         {
-            "question": "What is the meaning of '調味料'?",
+            "question": "ý nghĩa của từ  '調味料'?",
             "choices": ["Gia vị", "Sữa chua", "Đồ ăn vặt", "Gạo nếp"],
             "correctAnswer": 0
         },
         {
-            "question": "What is the meaning of '天ぷら'?",
+            "question": "ý nghĩa của từ  '天ぷら'?",
             "choices": ["Đồ chiên", "Nước tương", "Rau", "Gạo"],
             "correctAnswer": 0
         },
         {
-            "question": "What is the meaning of '牛乳'?",
+            "question": "ý nghĩa của từ  '牛乳'?",
             "choices": ["Sữa", "Trà", "Đậu phụ", "Bơ"],
             "correctAnswer": 0
         },
         {
-            "question": "What is the meaning of '小麦粉'?",
+            "question": "ý nghĩa của từ  '小麦粉'?",
             "choices": ["Bột mì", "Dầu ăn", "Trà xanh", "Nước trái cây"],
             "correctAnswer": 0
         }
     ],
-    "Condiments and Beverages Test": [
+        "hoa quả ": [
+          {
+            "question": "'ばなな'の意味は何ですか?",
+            "choices": ["Quả chuối", "Quả lê", "Quả đào", "Quả mận"],
+            "correctAnswer": 0
+          },
+          {
+            "question": "'苺'の意味は何ですか?",
+            "choices": ["Dâu tây", "Nho", "Mận", "Táo"],
+            "correctAnswer": 0
+          },
+          {
+            "question": "'杏子'の意味は何ですか?",
+            "choices": ["Mơ", "Quýt", "Dừa", "Đào"],
+            "correctAnswer": 0
+          },
+          {
+            "question": "'葡萄'の意味は何ですか?",
+            "choices": ["Nho", "Mận", "Táo", "Xoài"],
+            "correctAnswer": 0
+          },
+          {
+            "question": "'無花果'の意味は何ですか?",
+            "choices": ["Sung", "Bưởi", "Quýt", "Chanh dây"],
+            "correctAnswer": 0
+          },
+          {
+            "question": "'柿'の意味は何ですか?",
+            "choices": ["Hồng", "Đào", "Lê", "Chanh xanh"],
+            "correctAnswer": 0
+          },
+          {
+            "question": "'さぽちぇ'の意味は何ですか?",
+            "choices": ["Quả hồng xiêm", "Quả na", "Quả lê", "Quả đào"],
+            "correctAnswer": 0
+          },
+          {
+            "question": "'桃'の意味は何ですか?",
+            "choices": ["Quả đào", "Quả táo", "Quả dâu tằm", "Quả chôm chôm"],
+            "correctAnswer": 0
+          },
+          {
+            "question": "'梨'の意味は何ですか?",
+            "choices": ["Lê", "Quả nho", "Quả mơ", "Quả dừa"],
+            "correctAnswer": 0
+          },
+          {
+            "question": "'おれんじ'の意味は何ですか?",
+            "choices": ["Cam", "Táo", "Quả mận", "Xoài"],
+            "correctAnswer": 0
+          },
+          {
+            "question": "'れもん'の意味は何ですか?",
+            "choices": ["Chanh vàng", "Chanh xanh", "Cam", "Bưởi"],
+            "correctAnswer": 0
+          },
+          {
+            "question": "'林檎'の意味は何ですか?",
+            "choices": ["Táo", "Dâu tây", "Lê", "Mơ"],
+            "correctAnswer": 0
+          },
+          {
+            "question": "'さくらんぼ'の意味は何ですか?",
+            "choices": ["Cherry", "Quýt", "Dâu tằm", "Mận"],
+            "correctAnswer": 0
+          },
+          {
+            "question": "'すいか'の意味は何ですか?",
+            "choices": ["Dưa hấu", "Dưa lưới", "Xoài", "Mít"],
+            "correctAnswer": 0
+          },
+          {
+            "question": "'梅'の意味は何ですか?",
+            "choices": ["Quả mơ", "Quả lê", "Quả đào", "Quả chôm chôm"],
+            "correctAnswer": 0
+          },
+          {
+            "question": "'ぐあば'の意味は何ですか?",
+            "choices": ["Ổi", "Quả dừa", "Quả đào", "Quả dâu tằm"],
+            "correctAnswer": 0
+          },
+          {
+            "question": "'グレープフルーツ'の意味は何ですか?",
+            "choices": ["Bưởi", "Quýt", "Táo", "Dâu tây"],
+            "correctAnswer": 0
+          },
+          {
+            "question": "'アボカド'の意味は何ですか?",
+            "choices": ["Quả bơ", "Táo", "Quả mơ", "Quả đào"],
+            "correctAnswer": 0
+          },
+          {
+            "question": "'芒果'の意味は何ですか?",
+            "choices": ["Xoài", "Bưởi", "Mận", "Quýt"],
+            "correctAnswer": 0
+          },
+          {
+            "question": "'黄瓜'の意味は何ですか?",
+            "choices": ["Dưa chuột", "Dưa hấu", "Quả bơ", "Bưởi"],
+            "correctAnswer": 0
+          },
+          {
+            "question": "'干しぶどう'の意味は何ですか?",
+            "choices": ["Nho khô", "Nho tươi", "Táo khô", "Lê khô"],
+            "correctAnswer": 0
+          },
+          {
+            "question": "'みかん'の意味は何ですか?",
+            "choices": ["Quả quýt", "Bưởi", "Cam", "Chanh"],
+            "correctAnswer": 0
+          },
+          {
+            "question": "'ドリアン'の意味は何ですか?",
+            "choices": ["Quả sầu riêng", "Quả mít", "Quả dừa", "Quả xoài"],
+            "correctAnswer": 0
+          }
+        ],      
+    "gia vị": [
         {
-            "question": "What is the meaning of 'しょうゆ'?",
+            "question": "ý nghĩa của từ  'しょうゆ'?",
             "choices": ["Nước tương", "Gia vị", "Đậu phụ", "Trà xanh"],
             "correctAnswer": 0
         },
         {
-            "question": "What is the meaning of 'ワサビ'?",
+            "question": "ý nghĩa của từ  'ワサビ'?",
             "choices": ["Mù tạt", "Gia vị", "Bơ", "Dầu mè"],
             "correctAnswer": 0
         },
         {
-            "question": "What is the meaning of '抹茶'?",
+            "question": "ý nghĩa của từ  '抹茶'?",
             "choices": ["Trà xanh", "Gạo nếp", "Nước giặt", "Đồ ăn vặt"],
             "correctAnswer": 0
         },
         {
-            "question": "What is the meaning of '油'?",
+            "question": "ý nghĩa của từ  '油'?",
             "choices": ["Dầu ăn", "Gạo", "Sữa chua", "Bơ"],
             "correctAnswer": 0
         }
     ],
-    "Household Products Test": [
+    "vật dụng tẩy rửa": [
         {
-            "question": "What is the meaning of '洗剤'?",
+            "question": "ý nghĩa của từ  '洗剤'?",
             "choices": ["Nước giặt", "Sữa", "Dầu ăn", "Gia vị"],
             "correctAnswer": 0
         },
         {
-            "question": "What is the meaning of '食器用洗剤'?",
+            "question": "ý nghĩa của từ  '食器用洗剤'?",
             "choices": ["Nước rửa chén", "Trái cây", "Bột mì", "Nước giặt"],
             "correctAnswer": 0
         },
         {
-            "question": "What is the meaning of 'トイレ用洗剤'?",
+            "question": "ý nghĩa của từ  'トイレ用洗剤'?",
             "choices": ["Nước cọ toilet", "Nước rửa chén", "Nước giặt", "Đồ ăn vặt"],
             "correctAnswer": 0
         },
         {
-            "question": "What is the meaning of '浴室用洗剤'?",
+            "question": "ý nghĩa của từ  '浴室用洗剤'?",
             "choices": ["Nước cọ nhà tắm", "Đồ khô", "Gia vị", "Đậu phụ"],
             "correctAnswer": 0
         }

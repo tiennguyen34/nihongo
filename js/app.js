@@ -31,6 +31,17 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 });
 
+document.addEventListener("DOMContentLoaded", () => {
+    const lessonsList = document.getElementById("lessons-list");
+
+    const lessons = [];
+    
+    lessons.forEach(lesson => {
+        const li = document.createElement("li");
+        li.textContent = lesson;
+        lessonsList.appendChild(li);
+    });
+});
 
     const loginForm = document.getElementById('loginForm');
     if (loginForm) {
