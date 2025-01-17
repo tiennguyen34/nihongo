@@ -1,22 +1,85 @@
+/* Updated style5.css to ensure header and navigation stay on top */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
-body{
+
+body {
     font-family: Arial, sans-serif;
     background: linear-gradient(120deg, #a8edea, #fed6e3);
     margin: 0;
     padding: 20px;
     color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
+header {
+    width: 100%;
+    height: 40vh;
+    background-image: url('../images/background/header2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #4CAF50;
+    color: black;
+    font-size: 50px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+nav {
+    width: 100%;
+    background-color: #333;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 10px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    color: gray;
+}
+
+.content-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
 .score-container {
-    position: absolute;
-    transform: translate(-50%, -50%);
-    left: 50%;
-    top: 50%;
+    position: relative;
+    transform: none;
+    left: auto;
+    top: auto;
+    margin-bottom: 20px;
 }
+
 #start {
     background-color: #ffffff;
     height: 6em;
@@ -26,6 +89,7 @@ body{
     border-radius: 50%;
     cursor: pointer;
 }
+
 .game-container {
     background-color: #ffffff;
     width: 100%;
@@ -33,30 +97,34 @@ body{
     padding: 3em 1.5em;
     border: 0.6em solid #090029;
     border-radius: 0.5em;
-    position: absolute;
-    transform: translate(-50%, -50%);
-    left: 50%;
-    top: 50%;
+    position: relative;
+    transform: none;
+    left: auto;
+    top: auto;
 }
+
 .timer span {
     font-weight: 600;
 }
-.header,
-.num {
+
+.header, .num {
     text-align: right;
 }
+
 .pokemon-image {
     max-width: 200px;
     display: block;
     margin: 3em auto 0 auto;
     margin-bottom: 20px;
 }
+
 .options {
     display: flex;
     justify-content: center;
     gap: 0.5em;
     flex-wrap: wrap;
 }
+
 .options button {
     background-color: #ffffff;
     padding: 0.8em;
@@ -65,15 +133,18 @@ body{
     box-shadow: 0 0.5em 0 0 #090029;
     cursor: pointer;
 }
+
 .options button:hover {
     box-shadow: none;
     transform: translateY(0.6em);
 }
+
 .nxt-btn-div {
     margin-top: 3em;
     display: flex;
     justify-content: flex-end;
 }
+
 .next-btn {
     cursor: pointer;
     background-color: #090029;
@@ -82,33 +153,33 @@ body{
     font-size: 1.2em;
     padding: 0.8em 3em;
 }
+
 .hide {
     display: none;
 }
+
 .options:disabled {
     border-color: #a0a0a0;
     color: #a0a0a0;
     box-shadow: 0 0.5em 0 0 #a0a0a0;
     cursor: not-allowed;
 }
+
 .options button.correct {
     background: #58cc5d;
 }
+
 .options button.incorrect {
     background: #eb5650;
 }
+
 .options button.correct,
 .options button.incorrect {
     color: #ffffff;
     border-color: #090029;
     box-shadow: 0 0.5em 0 0 #090029;
 }
-.score-container {
-    position: absolute;
-    transform: translate(-50%, -50%);
-    left: 50%;
-    top: 50%;
-}
+
 #user-score {
     margin-bottom: 1em;
     color: #090029;

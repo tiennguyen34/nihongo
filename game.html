@@ -1,28 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta name="viewport" content="width=device-width,initial-scale=1.0" />
-        <title>QUIZ GAME</title>
-        <!--google fonts-->
-        <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
-        rel="stylesheet"
-        />
-        <!--stylesheet-->
-        <link rel="stylesheet" href="css/style5.css" />
-    </head>
-    <body>
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>QUIZ GAME</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/style5.css" />
+</head>
+<body>
+    <header>
+        <h1>日本語</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">ホームページ</a></li>
+            <li><a href="learning.html">勉強</a></li>
+            <li><a href="test.html">テスト</a></li>
+            <li><a href="flashcard.html">フラッシュカード</a></li>
+            <li><a href="game.html">遊ぼう</a></li>
+        </ul>
+    </nav>
+    
+    <div class="content-wrapper">
+        <div class="score-container">
+            <div id="user-score"></div>
+            <button id="start">スタート</button>
+        </div>
         <div class="game-container hide">
             <div class="header">
                 <div class="timer"></div>
             </div>
             <div class="container"></div>    
         </div>
-        <div class="score-container">
-            <div id="user-score"></div>
-            <button id="start">スタート</button>
-        </div>
-        <!--script-->
-        <script src="js/game.js"></script>
-    </body>
+    </div>
+    <!-- Script -->
+    <script src="js/game.js"></script>
+</body>
 </html>

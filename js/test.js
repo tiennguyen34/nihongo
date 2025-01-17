@@ -2,25 +2,21 @@ let testData = {};  // Test data
 let currentTest = [];  // Current test questions
 let currentQuestionIndex = 0;
 let score = 0;
-let skippedCount = 0;  // Track skipped questions
-let timeLeft = 60;  // Test time in seconds
+let skippedCount = 0;
+let timeLeft = 60;
 let timer;
-let userAnswers = [];  // Store user answers for review
+let userAnswers = [];
 
-// Load test data from JSON file
 async function loadTestData() {
     try {
         const response = await fetch('js/tests.json');
-        if (!response.ok) {
-            throw new Error('Failed to load test data');
-        }
+        if (!response.ok) throw new Error('Failed to load test data');
         testData = await response.json();
     } catch (error) {
         console.error(error);
     }
 }
 
-// Display the list of tests in the select dropdown
 function showTestList() {
     const testSelect = document.getElementById('testSelect');
     Object.keys(testData).forEach(test => {
@@ -31,140 +27,112 @@ function showTestList() {
     });
 }
 
-// Start the test
 function startTest() {
+    document.getElementById('score').textContent = ''; // Clear previous score
+    document.getElementById('reviewSection').innerHTML = ''; // Clear previous review
     const selectedTest = document.getElementById('testSelect').value;
-    const selectedTestContainer = document.getElementById('selected_test_container');
-
-    if (selectedTest) {
-        currentTest = testData[selectedTest];
-        currentQuestionIndex = 0;
-        score = 0;
-        skippedCount = 0;
-        userAnswers = [];
-        timeLeft = 60;
-        selectedTestContainer.style.display = 'block'; // Show the container when a test is selected
-        document.getElementById('testSection').style.display = 'block';
-        document.getElementById('resultSection').style.display = 'none';
-        document.getElementById('testTitle').textContent = selectedTest;
-        updateQuestion();
-        startTimer();
-    } else {
-        selectedTestContainer.style.display = 'none'; // Hide the container if no test is selected
-    }
+    if (!selectedTest) return;
+    
+    currentTest = [...testData[selectedTest]].sort(() => Math.random() - 0.5).slice(0, 5);
+    currentQuestionIndex = 0;
+    score = 0;
+    skippedCount = 0;
+    userAnswers = [];
+    timeLeft = 60;
+    
+    document.getElementById('selected_test_container').style.display = 'block';
+    document.getElementById('testSection').style.display = 'block';
+    document.getElementById('resultSection').style.display = 'none';
+    document.getElementById('testTitle').textContent = selectedTest;
+    
+    updateQuestion();
+    startTimer();
 }
 
-// Update the question and choices
 function updateQuestion() {
+    if (currentQuestionIndex >= currentTest.length) return endTest();
+    
     const questionContainer = document.getElementById('questionContainer');
     const questionData = currentTest[currentQuestionIndex];
     
-    if (questionData) {
-        questionContainer.innerHTML = '';
-        const questionElement = document.createElement('div');
-        questionElement.textContent = questionData.question;
-
-        const choices = document.createElement('ul');
-        questionData.choices.forEach((choice, index) => {
-            const choiceElement = document.createElement('li');
-            const choiceButton = document.createElement('button');
-            choiceButton.textContent = choice;
-            choiceButton.setAttribute('data-index', index); // Store index as data attribute
-            choiceButton.addEventListener('click', () => {
-                userAnswers.push({ question: questionData.question, userAnswer: choice, correctAnswer: questionData.correctAnswer });
-                checkAnswer(index);
-            });
-            choiceElement.appendChild(choiceButton);
-            choices.appendChild(choiceElement);
-        });
-
-        questionContainer.appendChild(questionElement);
-        questionContainer.appendChild(choices);
-
-        // Display the "Skip" button
-        document.getElementById('questionControls').style.display = 'block';
-    } else {
-        endTest();
-    }
+    questionContainer.innerHTML = `<div>${questionData.question}</div>`;
+    const choices = document.createElement('ul');
+    questionData.choices.forEach(choice => {
+        const choiceElement = document.createElement('li');
+        const choiceButton = document.createElement('button');
+        choiceButton.textContent = choice;
+        choiceButton.addEventListener('click', () => selectAnswer(choice, questionData));
+        choiceElement.appendChild(choiceButton);
+        choices.appendChild(choiceElement);
+    });
+    
+    questionContainer.appendChild(choices);
+    document.getElementById('questionControls').style.display = 'block';
 }
 
-// Check if the selected answer is correct
-function checkAnswer(selectedAnswer) {
-    const correctAnswer = currentTest[currentQuestionIndex].correctAnswer;
-    if (selectedAnswer === correctAnswer) {
-        score++;
-    }
-    currentQuestionIndex++;
-    updateQuestion(); 
-}
-
-// Skip Question Logic
-document.getElementById('skipButton').addEventListener('click', () => {
-    skippedCount++;
-    userAnswers.push({ question: currentTest[currentQuestionIndex].question, userAnswer: 'スキップ', correctAnswer: currentTest[currentQuestionIndex].correctAnswer });
+function selectAnswer(selectedAnswer, questionData) {
+    userAnswers.push({
+        question: questionData.question,
+        userAnswer: selectedAnswer,
+        correctAnswer: questionData.choices[questionData.correctAnswer]
+    });
+    if (selectedAnswer === questionData.choices[questionData.correctAnswer]) score++;
     currentQuestionIndex++;
     updateQuestion();
+}
+
+function skipQuestion() {
+    userAnswers.push({
+        question: currentTest[currentQuestionIndex].question,
+        userAnswer: 'スキップ',
+        correctAnswer: currentTest[currentQuestionIndex].choices[currentTest[currentQuestionIndex].correctAnswer]
+    });
+    skippedCount++;
+    currentQuestionIndex++;
+    updateQuestion();
+}
+
+document.getElementById('skipButton').addEventListener('click', skipQuestion);
+
+document.getElementById('endTestButton').addEventListener('click', endTest);
+
+document.getElementById('restartTest').addEventListener('click', () => {
+    document.getElementById('score').textContent = ''; // Clear previous score
+    document.getElementById('reviewSection').innerHTML = ''; // Clear previous review
+    document.getElementById('testSelect').value = '';
+    document.getElementById('testSection').style.display = 'none';
+    document.getElementById('resultSection').style.display = 'none';
+    document.getElementById('selected_test_container').style.display = 'none';
 });
 
-// Start the timer
 function startTimer() {
     const timerDisplay = document.getElementById('timer');
     timer = setInterval(() => {
         timerDisplay.textContent = `残りの時間: ${timeLeft}s`;
-        timeLeft--;
-
-        if (timeLeft < 0) {
-            clearInterval(timer);
-            endTest();
-        }
+        if (timeLeft-- <= 0) endTest();
     }, 1000);
 }
 
-// End the test and display the result
 function endTest() {
     clearInterval(timer);
-
-    // Display Final Score
-    const scorePercentage = Math.round((score / currentTest.length) * 100);
-    const grade = scorePercentage >= 90 ? 'A' : scorePercentage >= 75 ? 'B' : scorePercentage >= 50 ? 'C' : 'D';
-
     document.getElementById('score').textContent = `点数: ${score} / ${currentTest.length}`;
-    document.getElementById('finalScore').textContent = `点数: ${score} / ${currentTest.length} (${scorePercentage}%, 評価: ${grade})`;
     document.getElementById('testSection').style.display = 'none';
     document.getElementById('resultSection').style.display = 'block';
+    displayReview();
+}
 
-    // Display Detailed Review
+function displayReview() {
     const reviewContainer = document.getElementById('reviewSection');
     reviewContainer.innerHTML = '<h3>結果の確認:</h3>';
     userAnswers.forEach((answer, index) => {
         const reviewItem = document.createElement('p');
-        reviewItem.innerHTML = `<strong>質問 ${index + 1}:</strong> ${answer.question} <br>
-            <strong>あなたの回答:</strong> ${answer.userAnswer} <br>
-            <strong>正解:</strong> ${answer.correctAnswer} <br>`;
-        if (answer.userAnswer === answer.correctAnswer) {
-            reviewItem.style.color = 'green';
-        } else if (answer.userAnswer === 'スキップ') {
-            reviewItem.style.color = 'orange';
-        } else {
-            reviewItem.style.color = 'red';
-        }
+        reviewItem.innerHTML = `<strong>質問 ${index + 1}:</strong> ${answer.question}<br>
+            <strong>あなたの回答:</strong> ${answer.userAnswer}<br>
+            <strong>正解:</strong> ${answer.correctAnswer}<br>`;
+        reviewItem.style.color = answer.userAnswer === answer.correctAnswer ? 'green' : answer.userAnswer === 'スキップ' ? 'orange' : 'red';
         reviewContainer.appendChild(reviewItem);
     });
 }
 
-// Event listener for the "終了" button to end the test
-document.getElementById('endTestButton').addEventListener('click', () => {
-    endTest();
-});
-
-// Restart the test
-document.getElementById('restartTest').addEventListener('click', () => {
-    document.getElementById('testSelect').value = '';
-    document.getElementById('testSection').style.display = 'none';
-    document.getElementById('resultSection').style.display = 'none';
-    document.getElementById('selected_test_container').style.display = 'none'; // Hide the container when restarting
-});
-
-// Load test data and show test list
 loadTestData().then(showTestList);
 document.getElementById('testSelect').addEventListener('change', startTest);
