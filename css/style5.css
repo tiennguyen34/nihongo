@@ -1,24 +1,19 @@
-/* Updated style5.css to ensure header and navigation stay on top */
 * {
-    padding: 0;
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
 }
-
 body {
     font-family: Arial, sans-serif;
     background: linear-gradient(120deg, #a8edea, #fed6e3);
     margin: 0;
-    padding: 20px;
+    padding: 0;
     color: #333;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
+
 header {
-    width: 100%;
+    width: auto;
     height: 40vh;
     background-image: url('../images/background/header2.png');
     background-size: cover;
@@ -32,155 +27,110 @@ header {
     margin-bottom: 10px;
 }
 
-nav {
-    width: 100%;
+nav ul {
+    list-style-type: none;
+    padding: 10px;
     background-color: #333;
     text-align: center;
     border-radius: 8px;
     margin-bottom: 20px;
 }
 
-nav ul {
-    list-style-type: none;
-    padding: 10px;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-}
-
 nav ul li {
     display: inline;
+    margin: 0 10px;
+    margin-right: 10px;
 }
 
 nav ul li a {
     color: white;
     text-decoration: none;
-    padding: 10px;
-    display: inline-block;
+    padding: 8px;
 }
 
 nav ul li a:hover {
     color: gray;
 }
-
-.content-wrapper {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 20px;
-}
-
-.score-container {
-    position: relative;
-    transform: none;
-    left: auto;
-    top: auto;
-    margin-bottom: 20px;
-}
-
-#start {
-    background-color: #ffffff;
-    height: 6em;
-    width: 6em;
-    font-size: 1.8em;
-    border: 0.4em solid #090029;
-    border-radius: 50%;
-    cursor: pointer;
-}
-
-.game-container {
-    background-color: #ffffff;
-    width: 100%;
-    max-width: 31em;
-    padding: 3em 1.5em;
-    border: 0.6em solid #090029;
-    border-radius: 0.5em;
-    position: relative;
-    transform: none;
-    left: auto;
-    top: auto;
-}
-
-.timer span {
-    font-weight: 600;
-}
-
-.header, .num {
-    text-align: right;
-}
-
-.pokemon-image {
-    max-width: 200px;
-    display: block;
-    margin: 3em auto 0 auto;
-    margin-bottom: 20px;
-}
-
-.options {
-    display: flex;
+/* Game Selection Container */
+.container {
+    max-width: 140vh;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
     justify-content: center;
-    gap: 0.5em;
-    flex-wrap: wrap;
+    margin: 0 auto;
+    left: 50%;
 }
 
-.options button {
-    background-color: #ffffff;
-    padding: 0.8em;
-    border: 0.3em solid #090029;
-    border-radius: 0.5em;
-    box-shadow: 0 0.5em 0 0 #090029;
-    cursor: pointer;
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
 }
 
-.options button:hover {
-    box-shadow: none;
-    transform: translateY(0.6em);
-}
-
-.nxt-btn-div {
-    margin-top: 3em;
-    display: flex;
-    justify-content: flex-end;
-}
-
-.next-btn {
-    cursor: pointer;
-    background-color: #090029;
-    color: #ffffff;
-    border-radius: 0.5em;
+select, button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
     font-size: 1.2em;
-    padding: 0.8em 3em;
 }
 
-.hide {
-    display: none;
-}
-
-.options:disabled {
-    border-color: #a0a0a0;
-    color: #a0a0a0;
-    box-shadow: 0 0.5em 0 0 #a0a0a0;
+button:disabled {
+    background-color: #ddd;
     cursor: not-allowed;
 }
 
-.options button.correct {
-    background: #58cc5d;
+button:hover:not(:disabled) {
+    background-color: #4CAF50;
+    color: white;
 }
 
-.options button.incorrect {
-    background: #eb5650;
+/* Game Frame - Keep original layout but expand game container */
+#game-screen {
+    width: auto;
+    height: 140vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
-.options button.correct,
-.options button.incorrect {
-    color: #ffffff;
-    border-color: #090029;
-    box-shadow: 0 0.5em 0 0 #090029;
+#game-frame {
+    width: 100%;
+    height: 100%;
+    border: none;
 }
 
-#user-score {
-    margin-bottom: 1em;
-    color: #090029;
+/* Back Button */
+.back-button {
+    padding: 12px 25px;
+    font-size: 1.2em;
+    background-color: #ff4b4b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.back-button:hover {
+    background-color: #d93b3b;
+}
+
+/* Warning Message */
+.warning {
+    color: red;
+    font-weight: bold;
+}
+
+/* Hide Elements */
+.hide {
+    display: none;
 }

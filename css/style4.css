@@ -89,7 +89,27 @@ body {
     margin: 0 auto;
     padding: 10px;
     margin: 10px auto 10px auto;
-    
+}
+
+#questionContainer {
+    font-size: 24px; /* Adjust the size as needed */
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#questionContainer ul li button {
+    font-size: 20px; /* Adjust the size as needed */
+    padding: 15px;
+    width: 100%;
+    text-align: center;
+}
+
+#testTitle {
+    font-size: 28px; /* Adjust the size as needed */
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 15px;
 }
 
 

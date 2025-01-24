@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta name="viewport" content="width=device-width,initial-scale=1.0" />
-    <title>QUIZ GAME</title>
+    <title>日本語 - ゲーム</title>
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
     <!-- Stylesheets -->
@@ -14,26 +14,45 @@
     </header>
     <nav>
         <ul>
-            <li><a href="index.html">ホームページ</a></li>
-            <li><a href="learning.html">勉強</a></li>
-            <li><a href="test.html">テスト</a></li>
-            <li><a href="flashcard.html">フラッシュカード</a></li>
-            <li><a href="game.html">遊ぼう</a></li>
+            <li><a href="index.html">TOP</a></li>
+            <li><a href="learning.html">STEP 1</a></li>
+            <li><a href="test.html">STEP 2</a></li>
+            <li><a href="flashcard.html" class="active">STEP 3</a></li>
+            <li><a href="game.html">STEP 4</a></li>
         </ul>
     </nav>
     
-    <div class="content-wrapper">
-        <div class="score-container">
-            <div id="user-score"></div>
-            <button id="start">スタート</button>
-        </div>
-        <div class="game-container hide">
-            <div class="header">
-                <div class="timer"></div>
+    <main id="content" class="container">
+        <h2>遊びながら学ぼう！</h2>
+        <div class="game-selection">
+            <label for="game-type-select">ゲームの種類を選択:</label>
+            <select id="game-type-select">
+                <option value="" disabled selected>ゲームの種類を選んでください</option>
+                <option value="drag&drop">マッチング ゲーム</option>
+                <option value="quizgame">クイズ ゲーム</option>
+            </select>
+            
+            <div id="theme-selection" class="hide">
+                <label for="theme-select">テーマを選択:</label>
+                <select id="theme-select">
+                    <option value="" disabled selected>テーマを選んでください</option>
+                    <option value="animal">動物 / Động vật</option>
+                    <option value="fruits">果物 / Trái cây</option>
+                    <option value="material">食品・日用品 / Thực phẩm・hàng tiêu dùng</option>
+                    <option value="traffic">交通 / Giao thông</option>
+                </select>
+                <button id="start" class="start-button">スタート</button>
+                <p id="warning-message" class="hide warning">⚠️ テーマを選んでください！</p>
             </div>
-            <div class="container"></div>    
         </div>
-    </div>
+        
+        <!-- Game Frame -->
+        <div id="game-screen" class="hide">
+            <button id="back-to-selection" class="back-button">← 戻る</button>
+            <iframe id="game-frame" src="" width="100%" height="600px" frameborder="0"></iframe>
+        </div>
+    </main>
+    
     <!-- Script -->
     <script src="js/game.js"></script>
 </body>

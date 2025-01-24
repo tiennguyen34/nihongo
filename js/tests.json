@@ -1,215 +1,1370 @@
 {
-    "thực phẩm ": [
+    "食品・日用品 / Thực phẩm・hàng tiêu dùng": [
         {
             "question": "'肉'の意味は何ですか?",
-            "choices": ["Thịt", "Cá", "Rau", "Đồ khô"],
-            "correctAnswer": 0
+            "choices": [
+                "chạy quá tốc độ",
+                "thịt",
+                "đi qua cầu",
+                "rẽ đường"
+            ],
+            "correctAnswer": 1
         },
         {
             "question": "'魚'の意味は何ですか?",
-            "choices": ["Cá", "Thịt", "Đồ đông lạnh", "Trái cây"],
-            "correctAnswer": 0
+            "choices": [
+                "Táo ",
+                "dầu mè ",
+                "cá",
+                "Cú"
+            ],
+            "correctAnswer": 2
         },
         {
             "question": "'野菜'の意味は何ですか?",
-            "choices": ["Gia vị", "Trái cây", "Rau", "Đồ ăn vặt"],
-            "correctAnswer": 2
+            "choices": [
+                "rau",
+                "Sư tử",
+                "bơ ",
+                " Xe ngựa kéo"
+            ],
+            "correctAnswer": 0
         },
         {
             "question": "'干物'の意味は何ですか?",
-            "choices": ["Đồ ăn vặt", "Đồ đông lạnh", "Đồ khô", "Gia vị"],
-            "correctAnswer": 2
+            "choices": [
+                "Máy bay",
+                "đồ được sấy khô  ",
+                "Cá",
+                "Ổi "
+            ],
+            "correctAnswer": 1
         },
         {
             "question": "'冷凍食品'の意味は何ですか?",
-            "choices": ["Đồ đông lạnh", "Thịt", "Đồ chiên", "Trà Nhật"],
-            "correctAnswer": 0
+            "choices": [
+                "vượt xe phía trước",
+                "đồ đông lạnh ",
+                "Quả lựu",
+                "Quả vải "
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "question": "'拉麺'の意味は何ですか?",
+            "choices": [
+                "Xe gắn máy",
+                "Quả mơ",
+                "mì ",
+                "Quả mít "
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "question": "'弁当'の意味は何ですか?",
+            "choices": [
+                "Dâu tây ",
+                "cơm hộp ",
+                " Xe buýt",
+                "bơ "
+            ],
+            "correctAnswer": 1
         },
         {
             "question": "'果物'の意味は何ですか?",
-            "choices": ["Trái cây", "Nước giặt", "Gạo", "Sữa"],
+            "choices": [
+                "Quả mơ",
+                "Lê",
+                "Chuột",
+                "trái cây "
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "question": "'調味料'の意味は何ですか?",
+            "choices": [
+                "đồ chiên",
+                "Quả nhãn",
+                "gia vị ",
+                "đường đông"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "question": "'天ぷら'の意味は何ですか?",
+            "choices": [
+                "Tôm",
+                "đồ chiên",
+                "Hươu",
+                "Tàu (điện)"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "question": "'果汁'の意味は何ですか?",
+            "choices": [
+                "Sung ",
+                "Bưởi",
+                " Xe thể thao",
+                "nước trái cây"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "question": "'牛乳'の意味は何ですか?",
+            "choices": [
+                "sữa ",
+                "Quả quýt",
+                "Tàu (điện)",
+                "Máy bay"
+            ],
             "correctAnswer": 0
         },
         {
-            "question": "ý nghĩa của từ  '調味料'?",
-            "choices": ["Gia vị", "Sữa chua", "Đồ ăn vặt", "Gạo nếp"],
+            "question": "'ヨーグルト'の意味は何ですか?",
+            "choices": [
+                "đường đông",
+                "sữa chua ",
+                "dầu ăn ",
+                " Xe cứu thương"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "question": "'バター'の意味は何ですか?",
+            "choices": [
+                "Thỏ",
+                "bơ ",
+                "Hươu",
+                "chờ đèn tín hiệu giao thông"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "question": "'醬油'の意味は何ですか?",
+            "choices": [
+                "Du thuyền",
+                "nước tương ",
+                "trà gạo lứt ",
+                "Sói"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "question": "'山葵'の意味は何ですか?",
+            "choices": [
+                "Cú",
+                "Chuột",
+                "mù tạt ",
+                "Quả chuối "
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "question": "'豆腐'の意味は何ですか?",
+            "choices": [
+                "Xe cảnh sát",
+                "đậu phụ ",
+                "Hồng ",
+                "Xe gắn máy"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "question": "'小麦粉'の意味は何ですか?",
+            "choices": [
+                "Dâu tây ",
+                "Du thuyền",
+                "Cáo",
+                "bột mì "
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "question": "'餅米'の意味は何ですか?",
+            "choices": [
+                "gạo nếp ",
+                "nước cọ toilet ",
+                " tuân thủ theo đèn tín hiệu",
+                " bị xe phía trước vượt"
+            ],
             "correctAnswer": 0
         },
         {
-            "question": "ý nghĩa của từ  '天ぷら'?",
-            "choices": ["Đồ chiên", "Nước tương", "Rau", "Gạo"],
+            "question": "'米'の意味は何ですか?",
+            "choices": [
+                "Cherry",
+                " Xe thể thao",
+                "Quả thanh long ",
+                "gạo "
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "question": "'油'の意味は何ですか?",
+            "choices": [
+                " Xe đạp",
+                "dầu ăn ",
+                "sang đường dành cho người đi bộ",
+                "Gấu"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "question": "'ごま油'の意味は何ですか?",
+            "choices": [
+                "dầu mè ",
+                "Ổi ",
+                "cá",
+                "Hà mã"
+            ],
             "correctAnswer": 0
         },
         {
-            "question": "ý nghĩa của từ  '牛乳'?",
-            "choices": ["Sữa", "Trà", "Đậu phụ", "Bơ"],
+            "question": "'抹茶'の意味は何ですか?",
+            "choices": [
+                "Quả chôm chôm ",
+                "Cú",
+                "trà xanh ",
+                "Quả khế "
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "question": "'玄米茶'の意味は何ですか?",
+            "choices": [
+                "trà gạo lứt ",
+                "cá",
+                "chờ đèn tín hiệu giao thông",
+                "Quả vú sữa "
+            ],
             "correctAnswer": 0
         },
         {
-            "question": "ý nghĩa của từ  '小麦粉'?",
-            "choices": ["Bột mì", "Dầu ăn", "Trà xanh", "Nước trái cây"],
+            "question": "'洗剤'の意味は何ですか?",
+            "choices": [
+                "chạy quá tốc độ",
+                " Xe buýt",
+                "nước giặt ",
+                "Quả bơ "
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "question": "'食器用洗剤'の意味は何ですか?",
+            "choices": [
+                "nước rửa chén ",
+                "rau",
+                " Xe tải",
+                "đồ được sấy khô  "
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "question": "'トイレ用洗剤'の意味は何ですか?",
+            "choices": [
+                "nước cọ toilet ",
+                "Quả bơ ",
+                "sữa ",
+                "Hươu"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "question": "'浴室用洗剤'の意味は何ですか?",
+            "choices": [
+                "nước cọ nhà tắm ",
+                "Hồng ",
+                "Taxi",
+                "bấm còi xe"
+            ],
             "correctAnswer": 0
         }
     ],
-        "hoa quả ": [
-          {
+    "果物 / Trái cây": [
+        {
             "question": "'ばなな'の意味は何ですか?",
-            "choices": ["Quả chuối", "Quả lê", "Quả đào", "Quả mận"],
-            "correctAnswer": 0
-          },
-          {
+            "choices": [
+                "Phà",
+                "Quả đào ",
+                "Quả chuối ",
+                "Mơ "
+            ],
+            "correctAnswer": 2
+        },
+        {
             "question": "'苺'の意味は何ですか?",
-            "choices": ["Dâu tây", "Nho", "Mận", "Táo"],
-            "correctAnswer": 0
-          },
-          {
+            "choices": [
+                "Quả thanh long ",
+                "Tàu điện ngầm",
+                "Dâu tây ",
+                "nước trái cây"
+            ],
+            "correctAnswer": 2
+        },
+        {
             "question": "'杏子'の意味は何ですか?",
-            "choices": ["Mơ", "Quýt", "Dừa", "Đào"],
-            "correctAnswer": 0
-          },
-          {
+            "choices": [
+                "đồ được sấy khô  ",
+                "nước trái cây",
+                "Mơ ",
+                " rẽ trái"
+            ],
+            "correctAnswer": 2
+        },
+        {
             "question": "'葡萄'の意味は何ですか?",
-            "choices": ["Nho", "Mận", "Táo", "Xoài"],
-            "correctAnswer": 0
-          },
-          {
+            "choices": [
+                "Quả thanh long ",
+                "Quả kiwi",
+                " bị xe phía trước vượt",
+                "Nho "
+            ],
+            "correctAnswer": 3
+        },
+        {
             "question": "'無花果'の意味は何ですか?",
-            "choices": ["Sung", "Bưởi", "Quýt", "Chanh dây"],
-            "correctAnswer": 0
-          },
-          {
-            "question": "'柿'の意味は何ですか?",
-            "choices": ["Hồng", "Đào", "Lê", "Chanh xanh"],
-            "correctAnswer": 0
-          },
-          {
+            "choices": [
+                " Máy bay trực thăng",
+                "Khỉ",
+                " tuân thủ tốc độ giới hạn",
+                "Sung "
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "question": "'柿 'の意味は何ですか?",
+            "choices": [
+                "Quả oliu",
+                "Hồng ",
+                "Taxi",
+                "Tàu (chạy bằng hơi nước )"
+            ],
+            "correctAnswer": 1
+        },
+        {
             "question": "'さぽちぇ'の意味は何ですか?",
-            "choices": ["Quả hồng xiêm", "Quả na", "Quả lê", "Quả đào"],
+            "choices": [
+                "Quả hồng xiêm ",
+                "đồ đông lạnh ",
+                "thịt",
+                "Xe kéo"
+            ],
             "correctAnswer": 0
-          },
-          {
+        },
+        {
             "question": "'桃'の意味は何ですか?",
-            "choices": ["Quả đào", "Quả táo", "Quả dâu tằm", "Quả chôm chôm"],
-            "correctAnswer": 0
-          },
-          {
+            "choices": [
+                "Quả chôm chôm ",
+                "Quả dâu tằm ",
+                "Quả kiwi",
+                "Quả đào "
+            ],
+            "correctAnswer": 3
+        },
+        {
             "question": "'梨'の意味は何ですか?",
-            "choices": ["Lê", "Quả nho", "Quả mơ", "Quả dừa"],
-            "correctAnswer": 0
-          },
-          {
+            "choices": [
+                "Chanh xanh ",
+                "Lê",
+                "Quả thanh long ",
+                "Quạ"
+            ],
+            "correctAnswer": 1
+        },
+        {
             "question": "'おれんじ'の意味は何ですか?",
-            "choices": ["Cam", "Táo", "Quả mận", "Xoài"],
+            "choices": [
+                "Cam",
+                "Quả chuối ",
+                "nước tương ",
+                "Xe gắn máy"
+            ],
             "correctAnswer": 0
-          },
-          {
+        },
+        {
             "question": "'れもん'の意味は何ですか?",
-            "choices": ["Chanh vàng", "Chanh xanh", "Cam", "Bưởi"],
-            "correctAnswer": 0
-          },
-          {
+            "choices": [
+                "sang đường dành cho người đi bộ",
+                " tắc đường",
+                "Chanh vàng ",
+                "thịt"
+            ],
+            "correctAnswer": 2
+        },
+        {
             "question": "'林檎'の意味は何ですか?",
-            "choices": ["Táo", "Dâu tây", "Lê", "Mơ"],
+            "choices": [
+                "Táo ",
+                "trái cây ",
+                " Xe cứu hỏa",
+                "thịt"
+            ],
             "correctAnswer": 0
-          },
-          {
-            "question": "'さくらんぼ'の意味は何ですか?",
-            "choices": ["Cherry", "Quýt", "Dâu tằm", "Mận"],
+        },
+        {
+            "question": "'さくらんぼ 'の意味は何ですか?",
+            "choices": [
+                "Cherry",
+                "Cây mía ",
+                "sang đường dành cho người đi bộ",
+                "Tàu điện ngầm"
+            ],
             "correctAnswer": 0
-          },
-          {
+        },
+        {
             "question": "'すいか'の意味は何ですか?",
-            "choices": ["Dưa hấu", "Dưa lưới", "Xoài", "Mít"],
-            "correctAnswer": 0
-          },
-          {
+            "choices": [
+                "Quả na",
+                "Quả nhãn",
+                " Xe buýt",
+                "Dưa hấu "
+            ],
+            "correctAnswer": 3
+        },
+        {
             "question": "'梅'の意味は何ですか?",
-            "choices": ["Quả mơ", "Quả lê", "Quả đào", "Quả chôm chôm"],
-            "correctAnswer": 0
-          },
-          {
+            "choices": [
+                "đồ đông lạnh ",
+                "Mãng cầu ",
+                "chạy quá tốc độ",
+                "Quả mơ"
+            ],
+            "correctAnswer": 3
+        },
+        {
             "question": "'ぐあば'の意味は何ですか?",
-            "choices": ["Ổi", "Quả dừa", "Quả đào", "Quả dâu tằm"],
-            "correctAnswer": 0
-          },
-          {
+            "choices": [
+                "Quả sầu riêng ",
+                "Ổi ",
+                "gạo nếp ",
+                "Quả hồng xiêm "
+            ],
+            "correctAnswer": 1
+        },
+        {
             "question": "'グレープフルーツ'の意味は何ですか?",
-            "choices": ["Bưởi", "Quýt", "Táo", "Dâu tây"],
+            "choices": [
+                "Bưởi",
+                " tắc đường",
+                "Cam",
+                "Gấu"
+            ],
             "correctAnswer": 0
-          },
-          {
-            "question": "'アボカド'の意味は何ですか?",
-            "choices": ["Quả bơ", "Táo", "Quả mơ", "Quả đào"],
-            "correctAnswer": 0
-          },
-          {
+        },
+        {
+            "question": "'アボカド 'の意味は何ですか?",
+            "choices": [
+                "nước cọ nhà tắm ",
+                "Quả oliu",
+                "rẽ đường",
+                "Quả bơ "
+            ],
+            "correctAnswer": 3
+        },
+        {
             "question": "'芒果'の意味は何ですか?",
-            "choices": ["Xoài", "Bưởi", "Mận", "Quýt"],
+            "choices": [
+                "Xoài ",
+                "Ổi ",
+                "Ngựa",
+                "Rắn"
+            ],
             "correctAnswer": 0
-          },
-          {
+        },
+        {
             "question": "'黄瓜'の意味は何ですか?",
-            "choices": ["Dưa chuột", "Dưa hấu", "Quả bơ", "Bưởi"],
+            "choices": [
+                "Dưa chuột ",
+                "Quả lựu",
+                "chờ đèn tín hiệu giao thông",
+                " Xe cứu hỏa"
+            ],
             "correctAnswer": 0
-          },
-          {
+        },
+        {
             "question": "'干しぶどう'の意味は何ですか?",
-            "choices": ["Nho khô", "Nho tươi", "Táo khô", "Lê khô"],
-            "correctAnswer": 0
-          },
-          {
+            "choices": [
+                "rẽ đường",
+                "Nho khô ",
+                "Quả chanh dây",
+                "trái cây "
+            ],
+            "correctAnswer": 1
+        },
+        {
             "question": "'みかん'の意味は何ですか?",
-            "choices": ["Quả quýt", "Bưởi", "Cam", "Chanh"],
-            "correctAnswer": 0
-          },
-          {
+            "choices": [
+                "Xoài ",
+                "Cherry",
+                "Quả nhãn",
+                "Quả quýt"
+            ],
+            "correctAnswer": 3
+        },
+        {
             "question": "'ドリアン'の意味は何ですか?",
-            "choices": ["Quả sầu riêng", "Quả mít", "Quả dừa", "Quả xoài"],
-            "correctAnswer": 0
-          }
-        ],      
-    "gia vị": [
+            "choices": [
+                "Quả nhãn",
+                "Quả sầu riêng ",
+                "Sư tử",
+                "nước cọ toilet "
+            ],
+            "correctAnswer": 1
+        },
         {
-            "question": "ý nghĩa của từ  'しょうゆ'?",
-            "choices": ["Nước tương", "Gia vị", "Đậu phụ", "Trà xanh"],
+            "question": "'パイナップル'の意味は何ですか?",
+            "choices": [
+                "Cá heo",
+                "Quả dứa ",
+                "nước cọ nhà tắm ",
+                "Quả quýt"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "question": "'パパイア'の意味は何ですか?",
+            "choices": [
+                "Taxi",
+                "Quả đu đủ ",
+                "Hồng ",
+                "nước trái cây"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "question": "'砂糖黍'の意味は何ですか?",
+            "choices": [
+                "Cây mía ",
+                "Khỉ",
+                " Xe cảnh sát tuần tra",
+                "Quả quýt"
+            ],
             "correctAnswer": 0
         },
         {
-            "question": "ý nghĩa của từ  'ワサビ'?",
-            "choices": ["Mù tạt", "Gia vị", "Bơ", "Dầu mè"],
+            "question": "'ライム'の意味は何ですか?",
+            "choices": [
+                "Chanh xanh ",
+                "gạo ",
+                " vượt đèn đỏ",
+                "Sung "
+            ],
             "correctAnswer": 0
         },
         {
-            "question": "ý nghĩa của từ  '抹茶'?",
-            "choices": ["Trà xanh", "Gạo nếp", "Nước giặt", "Đồ ăn vặt"],
+            "question": "'キウイ 'の意味は何ですか?",
+            "choices": [
+                "Ngựa",
+                "gia vị ",
+                "Quả kiwi",
+                "Quả chuối "
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "question": "'オリーブ 'の意味は何ですか?",
+            "choices": [
+                "Quả oliu",
+                "Ô tô",
+                "gạo nếp ",
+                "Hươu"
+            ],
             "correctAnswer": 0
         },
         {
-            "question": "ý nghĩa của từ  '油'?",
-            "choices": ["Dầu ăn", "Gạo", "Sữa chua", "Bơ"],
+            "question": "'プラム'の意味は何ですか?",
+            "choices": [
+                "Quả mận",
+                "Hà mã",
+                "Quả oliu",
+                "Quả mít "
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "question": "'ココナッツ 'の意味は何ですか?",
+            "choices": [
+                "Quả chanh dây",
+                "Quả dừa ",
+                "Chó",
+                "đậu phụ "
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "question": "'パッションフルーツ'の意味は何ですか?",
+            "choices": [
+                "Quả chanh dây",
+                "bột mì ",
+                "Ổi ",
+                "Cá"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "question": "'マンゴスチン'の意味は何ですか?",
+            "choices": [
+                "nước cọ toilet ",
+                "Voi",
+                "Quả măng cụt ",
+                "Khỉ"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "question": "'スターフルーツ'の意味は何ですか?",
+            "choices": [
+                "Rắn",
+                "Quả quýt",
+                "bơ ",
+                "Quả khế "
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "question": "'ランプータン'の意味は何ですか?",
+            "choices": [
+                "Phà",
+                "Quả chôm chôm ",
+                "gạo nếp ",
+                "Cây mía "
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "question": "'シトロン'の意味は何ですか?",
+            "choices": [
+                "Quạ",
+                "Quả thanh yên ",
+                "nước rửa chén ",
+                "Hà mã"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "question": "'ミルクフルーツ'の意味は何ですか?",
+            "choices": [
+                "Quả vú sữa ",
+                "Tàu cao tốc",
+                "Nho khô ",
+                "Chó"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "question": "'シュガーアップル'の意味は何ですか?",
+            "choices": [
+                "Quả na",
+                "chạy quá tốc độ",
+                "nước tương ",
+                "Cam"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "question": "'カスタードアップル 'の意味は何ですか?",
+            "choices": [
+                "Mãng cầu ",
+                "Bò",
+                "Cá heo",
+                " Xe cứu thương"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "question": "'くわの実'の意味は何ですか?",
+            "choices": [
+                "Quạ",
+                "Quả quýt",
+                "sang đường dành cho người đi bộ",
+                "Quả dâu tằm "
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "question": "'ざくろ 'の意味は何ですか?",
+            "choices": [
+                "chạy quá tốc độ",
+                " tuân thủ theo đèn tín hiệu",
+                "trái cây ",
+                "Quả lựu"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "question": "'ジャックフルーツ'の意味は何ですか?",
+            "choices": [
+                "vượt xe phía trước",
+                "Hươu",
+                "Quả mít ",
+                "rẽ đường"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "question": "'タマリンド'の意味は何ですか?",
+            "choices": [
+                "Cá",
+                "Quả me ",
+                "Quả dừa ",
+                "Quả thanh long "
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "question": "'ドラゴンフルーツ 'の意味は何ですか?",
+            "choices": [
+                "Hươu",
+                "Quả thanh long ",
+                "Cá",
+                "Cáo"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "question": "'メロン 'の意味は何ですか?",
+            "choices": [
+                "Chuột",
+                "Xe kéo",
+                "Dưa lưới",
+                "Cherry"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "question": "'ロンガン'の意味は何ですか?",
+            "choices": [
+                "gia vị ",
+                "Tàu (điện)",
+                "Quả kiwi",
+                "Quả nhãn"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "question": "'ライチー'の意味は何ですか?",
+            "choices": [
+                "Quả vải ",
+                " Xe cảnh sát tuần tra",
+                "gia vị ",
+                " tắc đường"
+            ],
             "correctAnswer": 0
         }
     ],
-    "vật dụng tẩy rửa": [
+    "交通 / Giao thông": [
         {
-            "question": "ý nghĩa của từ  '洗剤'?",
-            "choices": ["Nước giặt", "Sữa", "Dầu ăn", "Gia vị"],
+            "question": "'自動車 / 車'の意味は何ですか?",
+            "choices": [
+                "sang đường dành cho người đi bộ",
+                "đồ chiên",
+                "Quả mơ",
+                "Ô tô"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "question": "'バス 'の意味は何ですか?",
+            "choices": [
+                " bị xe phía trước vượt",
+                " Xe buýt",
+                " tuân thủ tốc độ giới hạn",
+                "Cá"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "question": "'トラック 'の意味は何ですか?",
+            "choices": [
+                "đồ đông lạnh ",
+                "thịt",
+                " Xe ngựa kéo",
+                " Xe tải"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "question": "' スポーツカー'の意味は何ですか?",
+            "choices": [
+                "Quả đu đủ ",
+                "Quả mơ",
+                " Xe cứu hỏa",
+                " Xe thể thao"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "question": "'タクシー 'の意味は何ですか?",
+            "choices": [
+                "chạy quá tốc độ",
+                " Xe đạp",
+                "Taxi",
+                "bột mì "
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "question": "' 救急車'の意味は何ですか?",
+            "choices": [
+                " Xe cứu thương",
+                "Quả thanh long ",
+                "chạy quá tốc độ",
+                " Xe buýt"
+            ],
             "correctAnswer": 0
         },
         {
-            "question": "ý nghĩa của từ  '食器用洗剤'?",
-            "choices": ["Nước rửa chén", "Trái cây", "Bột mì", "Nước giặt"],
+            "question": "'消防車'の意味は何ですか?",
+            "choices": [
+                " Máy bay trực thăng",
+                "chờ đèn tín hiệu giao thông",
+                "Cá heo",
+                " Xe cứu hỏa"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "question": "'パトカー'の意味は何ですか?",
+            "choices": [
+                "chạy quá tốc độ",
+                " Xe cảnh sát tuần tra",
+                "Chanh xanh ",
+                " Xe ngựa kéo"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "question": "' 白バイ'の意味は何ですか?",
+            "choices": [
+                "Bưởi",
+                "Quả oliu",
+                "Xe cảnh sát",
+                " Xe cứu hỏa"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "question": "'オートバイ'の意味は何ですか?",
+            "choices": [
+                "Quả khế ",
+                "dầu ăn ",
+                "Quả đào ",
+                "Xe gắn máy"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "question": "'自転車 'の意味は何ですか?",
+            "choices": [
+                "Hươu",
+                "Du thuyền",
+                " Xe đạp",
+                "Rắn"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "question": "'三輪車 'の意味は何ですか?",
+            "choices": [
+                " Xe thể thao",
+                "Quả dứa ",
+                "Xe ba bánh",
+                "Rắn"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "question": "' 汽車 'の意味は何ですか?",
+            "choices": [
+                "Tàu điện ngầm",
+                "bấm còi xe",
+                "mù tạt ",
+                "Tàu (chạy bằng hơi nước )"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "question": "' 電車 'の意味は何ですか?",
+            "choices": [
+                " đường vắng",
+                "Cá heo",
+                "Bò",
+                "Tàu (điện)"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "question": "'地下鉄 'の意味は何ですか?",
+            "choices": [
+                " Máy bay trực thăng",
+                "Khỉ",
+                "Hươu",
+                "Tàu điện ngầm"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "question": "' 新幹線 'の意味は何ですか?",
+            "choices": [
+                "cá",
+                "Tàu cao tốc",
+                "Hà mã",
+                "cơm hộp "
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "question": "' 船 'の意味は何ですか?",
+            "choices": [
+                " bị xe phía trước vượt",
+                "Tàu thủy",
+                "Nho khô ",
+                "Thỏ"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "question": "' 帆船 'の意味は何ですか?",
+            "choices": [
+                " Xe ngựa kéo",
+                "Dưa chuột ",
+                "Thuyền buồm",
+                "sữa "
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "question": "' ヨット'の意味は何ですか?",
+            "choices": [
+                "trái cây ",
+                "Quả me ",
+                "Du thuyền",
+                "Cáo"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "question": "' フェーリー 'の意味は何ですか?",
+            "choices": [
+                "Phà",
+                " Xe tải",
+                "Quả mận",
+                "Quả bơ "
+            ],
             "correctAnswer": 0
         },
         {
-            "question": "ý nghĩa của từ  'トイレ用洗剤'?",
-            "choices": ["Nước cọ toilet", "Nước rửa chén", "Nước giặt", "Đồ ăn vặt"],
+            "question": "' 飛行機 'の意味は何ですか?",
+            "choices": [
+                "bột mì ",
+                " Xe buýt",
+                "Máy bay",
+                "dầu mè "
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "question": "'ヘリコプター 'の意味は何ですか?",
+            "choices": [
+                "Dưa chuột ",
+                " Máy bay trực thăng",
+                "Quả quýt",
+                "Thuyền buồm"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "question": "'馬車 'の意味は何ですか?",
+            "choices": [
+                " tắc đường",
+                " Xe ngựa kéo",
+                "Dâu tây ",
+                " vượt đèn đỏ"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "question": "' 人力車 'の意味は何ですか?",
+            "choices": [
+                "Quả chuối ",
+                " Xe tải",
+                "Quả đu đủ ",
+                "Xe kéo"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "question": "' 免許証を持っていますか'の意味は何ですか?",
+            "choices": [
+                "nước cọ toilet ",
+                "Quả vải ",
+                "Nho khô ",
+                "Bạn có bằng lái xe?"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "question": "' 道を曲がる'の意味は何ですか?",
+            "choices": [
+                "Cherry",
+                "Quả khế ",
+                "rẽ đường",
+                "sang đường dành cho người đi bộ"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "question": "'右に曲がる'の意味は何ですか?",
+            "choices": [
+                "Quạ",
+                "nước trái cây",
+                " Xe đạp",
+                "rẽ phải"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "question": "'左に曲がる'の意味は何ですか?",
+            "choices": [
+                " vượt đèn đỏ",
+                "Tàu (điện)",
+                "Táo ",
+                " rẽ trái"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "question": "'横断歩道を渡る'の意味は何ですか?",
+            "choices": [
+                "gạo ",
+                "sang đường dành cho người đi bộ",
+                "nước trái cây",
+                "Quả lựu"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "question": "'橋を渡る'の意味は何ですか?",
+            "choices": [
+                "đi qua cầu",
+                "đồ được sấy khô  ",
+                "Xoài ",
+                "Cam"
+            ],
             "correctAnswer": 0
         },
         {
-            "question": "ý nghĩa của từ  '浴室用洗剤'?",
-            "choices": ["Nước cọ nhà tắm", "Đồ khô", "Gia vị", "Đậu phụ"],
+            "question": "'道が混む'の意味は何ですか?",
+            "choices": [
+                "đường đông",
+                "Dâu tây ",
+                "Thỏ",
+                "Tàu thủy"
+            ],
             "correctAnswer": 0
+        },
+        {
+            "question": "'道がすく'の意味は何ですか?",
+            "choices": [
+                "Ngựa",
+                " đường vắng",
+                "Bò",
+                "Dưa chuột "
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "question": "'渋滞'の意味は何ですか?",
+            "choices": [
+                "Quả oliu",
+                "Quả măng cụt ",
+                "Quả bơ ",
+                " tắc đường"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "question": "'信号待'の意味は何ですか?",
+            "choices": [
+                "Quả măng cụt ",
+                "Hươu",
+                "Hồng ",
+                "chờ đèn tín hiệu giao thông"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "question": "'制限速度を守る'の意味は何ですか?",
+            "choices": [
+                " tuân thủ tốc độ giới hạn",
+                "Ngựa",
+                "đồ được sấy khô  ",
+                "Hồng "
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "question": "'制限速度オーバー'の意味は何ですか?",
+            "choices": [
+                "dầu mè ",
+                "gia vị ",
+                "chạy quá tốc độ",
+                "Quả đào "
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "question": "' 信号を守る'の意味は何ですか?",
+            "choices": [
+                " tuân thủ theo đèn tín hiệu",
+                "sữa chua ",
+                "Sói",
+                " bị xe phía trước vượt"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "question": "' 信号を無視する'の意味は何ですか?",
+            "choices": [
+                " vượt đèn đỏ",
+                "Chuột",
+                "Chanh vàng ",
+                "Ổi "
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "question": "'前の車を追い越す'の意味は何ですか?",
+            "choices": [
+                "Ổi ",
+                "vượt xe phía trước",
+                " Xe cảnh sát tuần tra",
+                "Quả măng cụt "
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "question": "'前の車に追い越される'の意味は何ですか?",
+            "choices": [
+                "Hồng ",
+                " bị xe phía trước vượt",
+                "Rắn",
+                "đồ được sấy khô  "
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "question": "'クラクションを鳴らす'の意味は何ですか?",
+            "choices": [
+                "bấm còi xe",
+                "Bưởi",
+                "Quả quýt",
+                "Du thuyền"
+            ],
+            "correctAnswer": 0
+        }
+    ],
+    "動物 / Động vật": [
+        {
+            "question": "'ねずみ'の意味は何ですか?",
+            "choices": [
+                "Quả lựu",
+                "Tàu cao tốc",
+                "rau",
+                "Chuột"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "question": "'ライオン'の意味は何ですか?",
+            "choices": [
+                "Sư tử",
+                "đậu phụ ",
+                "nước giặt ",
+                "Thuyền buồm"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "question": "'牛'の意味は何ですか?",
+            "choices": [
+                "gia vị ",
+                "Bò",
+                "Cáo",
+                "thịt"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "question": "'魚'の意味は何ですか?",
+            "choices": [
+                "Cá",
+                " vượt đèn đỏ",
+                "Sung ",
+                "chạy quá tốc độ"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "question": "'イルカ'の意味は何ですか?",
+            "choices": [
+                "bấm còi xe",
+                "Cá heo",
+                "Quả mận",
+                "nước cọ nhà tắm "
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "question": "'うさぎ'の意味は何ですか?",
+            "choices": [
+                "Thỏ",
+                "Quả me ",
+                " Xe tải",
+                "đường đông"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "question": "'エビ'の意味は何ですか?",
+            "choices": [
+                "Quả vải ",
+                "mì ",
+                "Tôm",
+                "mù tạt "
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "question": "'カバ'の意味は何ですか?",
+            "choices": [
+                "Quạ",
+                "gạo nếp ",
+                "Hà mã",
+                "Dâu tây "
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "question": "'カラス'の意味は何ですか?",
+            "choices": [
+                "Quả oliu",
+                "Quạ",
+                "Quả thanh long ",
+                "Quả me "
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "question": "'キツネ'の意味は何ですか?",
+            "choices": [
+                "Thỏ",
+                "Cáo",
+                "Quả na",
+                "Cây mía "
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "question": "'犬'の意味は何ですか?",
+            "choices": [
+                "Chanh vàng ",
+                "Mãng cầu ",
+                "Chó",
+                "đường đông"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "question": "'鹿'の意味は何ですか?",
+            "choices": [
+                "Hươu",
+                "Cam",
+                "Bưởi",
+                "Quả dừa "
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "question": "'猫'の意味は何ですか?",
+            "choices": [
+                " Xe tải",
+                "Mèo",
+                "thịt",
+                "Tàu cao tốc"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "question": "'熊'の意味は何ですか?",
+            "choices": [
+                "Máy bay",
+                " đường vắng",
+                "Gấu",
+                "Quả chanh dây"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "question": "'馬'の意味は何ですか?",
+            "choices": [
+                "Khỉ",
+                "Quả chôm chôm ",
+                "Bưởi",
+                "Ngựa"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "question": "'象'の意味は何ですか?",
+            "choices": [
+                "Thuyền buồm",
+                "Quạ",
+                "Voi",
+                "Quả dừa "
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "question": "'狼'の意味は何ですか?",
+            "choices": [
+                "Quả vải ",
+                "Sói",
+                "Quả thanh yên ",
+                " Xe cứu thương"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "question": "'猿'の意味は何ですか?",
+            "choices": [
+                " Xe cứu thương",
+                "Khỉ",
+                "gạo ",
+                "nước rửa chén "
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "question": "'梟'の意味は何ですか?",
+            "choices": [
+                " bị xe phía trước vượt",
+                "Dưa lưới",
+                "chạy quá tốc độ",
+                "Cú"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "question": "'蛇'の意味は何ですか?",
+            "choices": [
+                "Thỏ",
+                "Rắn",
+                "sang đường dành cho người đi bộ",
+                "trà gạo lứt "
+            ],
+            "correctAnswer": 1
         }
     ]
 }
